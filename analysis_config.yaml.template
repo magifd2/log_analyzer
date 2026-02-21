@@ -1,0 +1,26 @@
+# Analysis Configuration for the Log Analyzer
+# This file defines the parameters for a specific analysis task.
+# It can be safely committed to version control.
+
+# Data source settings
+data:
+  # Name of the field containing the timestamp in each log entry.
+  timestamp_field: "timestamp"
+  # Format of the timestamp. "iso8601" and "epoch" are special values.
+  # Otherwise, use Python's strptime format codes.
+  # Examples: "%Y-%m-%dT%H:%M:%S.%fZ", "epoch", "iso8601"
+  timestamp_format: "iso8601"
+
+# Prompt template paths
+prompts:
+  # Path to the prompt file for analyzing individual chunks.
+  chunk_analysis_prompt_path: "prompts/summarize_chunk.txt"
+  # Path to the prompt file for summarizing the results of all chunks.
+  final_summary_prompt_path: "prompts/summarize_all.txt"
+
+# Output settings
+output:
+  # Path to the output directory where the report will be saved.
+  output_dir: "output"
+  # Filename for the final analysis report.
+  report_filename: "analysis_report.md"

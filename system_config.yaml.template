@@ -1,0 +1,12 @@
+# System Configuration for the Log Analyzer
+# This file contains environment-specific settings like API endpoints and models.
+# It is recommended to NOT commit this file to version control.
+
+llm:
+  # Base URL of the OpenAI-compatible API
+  base_url: "http://localhost:1234/v1"
+  # Model to use for analysis
+  model: "openai/gpt-oss-20b"
+  # Approximate maximum tokens for a single chunk before splitting.
+  # This is not a hard limit, but a guideline for the chunking logic.
+  max_tokens_per_chunk: 2048

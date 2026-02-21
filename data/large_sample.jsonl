@@ -1,0 +1,1000 @@
+{"timestamp": "2026-02-21T05:43:53.538607+00:00", "level": "INFO", "message": "Service 'notification-service' started."}
+{"timestamp": "2026-02-21T05:43:54.538607+00:00", "level": "CRITICAL", "message": "Database connection failed permanently. Service 'data-processor' shutting down."}
+{"timestamp": "2026-02-21T05:43:55.538607+00:00", "level": "CRITICAL", "message": "Database connection failed permanently. Service 'data-processor' shutting down."}
+{"timestamp": "2026-02-21T05:43:56.538607+00:00", "level": "INFO", "message": "User 'beta' logged in successfully."}
+{"timestamp": "2026-02-21T05:43:57.538607+00:00", "level": "INFO", "message": "Service 'notification-service' started."}
+{"timestamp": "2026-02-21T05:43:58.538607+00:00", "level": "INFO", "message": "Starting hourly maintenance task."}
+{"timestamp": "2026-02-21T05:43:59.538607+00:00", "level": "ERROR", "message": "Failed to connect to database 'primary_db'. Connection refused."}
+{"timestamp": "2026-02-21T05:44:00.538607+00:00", "level": "INFO", "message": "Maintenance task completed."}
+{"timestamp": "2026-02-21T05:44:01.538607+00:00", "level": "INFO", "message": "Retrying connection to database... (2/3)"}
+{"timestamp": "2026-02-21T05:44:02.538607+00:00", "level": "INFO", "message": "Service 'notification-service' started."}
+{"timestamp": "2026-02-21T05:44:03.538607+00:00", "level": "INFO", "message": "Processing batch job #1244."}
+{"timestamp": "2026-02-21T05:44:04.538607+00:00", "level": "ERROR", "message": "Failed to connect to database 'primary_db'. Connection refused."}
+{"timestamp": "2026-02-21T05:44:05.538607+00:00", "level": "INFO", "message": "User 'alpha' logged in successfully."}
+{"timestamp": "2026-02-21T05:44:06.538607+00:00", "level": "INFO", "message": "Starting hourly maintenance task."}
+{"timestamp": "2026-02-21T05:44:07.538607+00:00", "level": "INFO", "message": "Service 'auth-service' started."}
+{"timestamp": "2026-02-21T05:44:08.538607+00:00", "level": "ERROR", "message": "Failed to connect to database 'primary_db'. Connection refused."}
+{"timestamp": "2026-02-21T05:44:09.538607+00:00", "level": "INFO", "message": "Maintenance task completed."}
+{"timestamp": "2026-02-21T05:44:10.538607+00:00", "level": "ERROR", "message": "Failed to connect to database 'primary_db'. Connection refused."}
+{"timestamp": "2026-02-21T05:44:11.538607+00:00", "level": "WARN", "message": "API endpoint /api/v1/users deprecated. Please use /api/v2/users."}
+{"timestamp": "2026-02-21T05:44:12.538607+00:00", "level": "WARN", "message": "API endpoint /api/v1/users deprecated. Please use /api/v2/users."}
+{"timestamp": "2026-02-21T05:44:13.538607+00:00", "level": "INFO", "message": "Service 'auth-service' started."}
+{"timestamp": "2026-02-21T05:44:14.538607+00:00", "level": "DEBUG", "message": "Sent 50 notification emails."}
+{"timestamp": "2026-02-21T05:44:15.538607+00:00", "level": "INFO", "message": "Service 'notification-service' started."}
+{"timestamp": "2026-02-21T05:44:16.538607+00:00", "level": "ERROR", "message": "Failed to connect to database 'primary_db'. Connection refused."}
+{"timestamp": "2026-02-21T05:44:17.538607+00:00", "level": "INFO", "message": "Service 'notification-service' started."}
+{"timestamp": "2026-02-21T05:44:18.538607+00:00", "level": "INFO", "message": "Starting hourly maintenance task."}
+{"timestamp": "2026-02-21T05:44:19.538607+00:00", "level": "INFO", "message": "User 'alpha' logged in successfully."}
+{"timestamp": "2026-02-21T05:44:20.538607+00:00", "level": "INFO", "message": "Retrying connection to database... (2/3)"}
+{"timestamp": "2026-02-21T05:44:21.538607+00:00", "level": "ERROR", "message": "Failed to connect to database 'primary_db'. Connection refused."}
+{"timestamp": "2026-02-21T05:44:22.538607+00:00", "level": "INFO", "message": "Service 'notification-service' started."}
+{"timestamp": "2026-02-21T05:44:23.538607+00:00", "level": "DEBUG", "message": "Sent 50 notification emails."}
+{"timestamp": "2026-02-21T05:44:24.538607+00:00", "level": "INFO", "message": "Service 'notification-service' started."}
+{"timestamp": "2026-02-21T05:44:25.538607+00:00", "level": "INFO", "message": "Service 'notification-service' started."}
+{"timestamp": "2026-02-21T05:44:26.538607+00:00", "level": "INFO", "message": "Service 'auth-service' started."}
+{"timestamp": "2026-02-21T05:44:27.538607+00:00", "level": "WARN", "message": "API endpoint /api/v1/users deprecated. Please use /api/v2/users."}
+{"timestamp": "2026-02-21T05:44:28.538607+00:00", "level": "DEBUG", "message": "Sent 50 notification emails."}
+{"timestamp": "2026-02-21T05:44:29.538607+00:00", "level": "INFO", "message": "Starting hourly maintenance task."}
+{"timestamp": "2026-02-21T05:44:30.538607+00:00", "level": "ERROR", "message": "Failed to connect to database 'primary_db'. Connection refused."}
+{"timestamp": "2026-02-21T05:44:31.538607+00:00", "level": "INFO", "message": "Processing batch job #1272."}
+{"timestamp": "2026-02-21T05:44:32.538607+00:00", "level": "DEBUG", "message": "Sent 50 notification emails."}
+{"timestamp": "2026-02-21T05:44:33.538607+00:00", "level": "ERROR", "message": "Failed to connect to database 'primary_db'. Connection refused."}
+{"timestamp": "2026-02-21T05:44:34.538607+00:00", "level": "INFO", "message": "Retrying connection to database... (2/3)"}
+{"timestamp": "2026-02-21T05:44:35.538607+00:00", "level": "ERROR", "message": "Failed to connect to database 'primary_db'. Connection refused."}
+{"timestamp": "2026-02-21T05:44:36.538607+00:00", "level": "INFO", "message": "User 'alpha' logged in successfully."}
+{"timestamp": "2026-02-21T05:44:37.538607+00:00", "level": "INFO", "message": "Processing batch job #1278."}
+{"timestamp": "2026-02-21T05:44:38.538607+00:00", "level": "INFO", "message": "Retrying connection to database... (1/3)"}
+{"timestamp": "2026-02-21T05:44:39.538607+00:00", "level": "INFO", "message": "Starting hourly maintenance task."}
+{"timestamp": "2026-02-21T05:44:40.538607+00:00", "level": "CRITICAL", "message": "Database connection failed permanently. Service 'data-processor' shutting down."}
+{"timestamp": "2026-02-21T05:44:41.538607+00:00", "level": "INFO", "message": "User 'alpha' logged in successfully."}
+{"timestamp": "2026-02-21T05:44:42.538607+00:00", "level": "INFO", "message": "Retrying connection to database... (1/3)"}
+{"timestamp": "2026-02-21T05:44:43.538607+00:00", "level": "WARN", "message": "Disk space on '/var/log' is running low (92% used)."}
+{"timestamp": "2026-02-21T05:44:44.538607+00:00", "level": "ERROR", "message": "Failed to connect to database 'primary_db'. Connection refused."}
+{"timestamp": "2026-02-21T05:44:45.538607+00:00", "level": "INFO", "message": "Retrying connection to database... (1/3)"}
+{"timestamp": "2026-02-21T05:44:46.538607+00:00", "level": "CRITICAL", "message": "Database connection failed permanently. Service 'data-processor' shutting down."}
+{"timestamp": "2026-02-21T05:44:47.538607+00:00", "level": "WARN", "message": "Disk space on '/var/log' is running low (92% used)."}
+{"timestamp": "2026-02-21T05:44:48.538607+00:00", "level": "DEBUG", "message": "Sent 50 notification emails."}
+{"timestamp": "2026-02-21T05:44:49.538607+00:00", "level": "INFO", "message": "Retrying connection to database... (1/3)"}
+{"timestamp": "2026-02-21T05:44:50.538607+00:00", "level": "INFO", "message": "Processing batch job #1291."}
+{"timestamp": "2026-02-21T05:44:51.538607+00:00", "level": "INFO", "message": "Processing batch job #1292."}
+{"timestamp": "2026-02-21T05:44:52.538607+00:00", "level": "INFO", "message": "User 'beta' logged in successfully."}
+{"timestamp": "2026-02-21T05:44:53.538607+00:00", "level": "INFO", "message": "Maintenance task completed."}
+{"timestamp": "2026-02-21T05:44:54.538607+00:00", "level": "INFO", "message": "Retrying connection to database... (2/3)"}
+{"timestamp": "2026-02-21T05:44:55.538607+00:00", "level": "DEBUG", "message": "Data validation passed for job #1296."}
+{"timestamp": "2026-02-21T05:44:56.538607+00:00", "level": "INFO", "message": "Retrying connection to database... (2/3)"}
+{"timestamp": "2026-02-21T05:44:57.538607+00:00", "level": "ERROR", "message": "Failed to connect to database 'primary_db'. Connection refused."}
+{"timestamp": "2026-02-21T05:44:58.538607+00:00", "level": "DEBUG", "message": "Data validation passed for job #1299."}
+{"timestamp": "2026-02-21T05:44:59.538607+00:00", "level": "INFO", "message": "User 'beta' logged in successfully."}
+{"timestamp": "2026-02-21T05:45:00.538607+00:00", "level": "DEBUG", "message": "Sent 50 notification emails."}
+{"timestamp": "2026-02-21T05:45:01.538607+00:00", "level": "INFO", "message": "Maintenance task completed."}
+{"timestamp": "2026-02-21T05:45:02.538607+00:00", "level": "INFO", "message": "User 'beta' logged in successfully."}
+{"timestamp": "2026-02-21T05:45:03.538607+00:00", "level": "INFO", "message": "User 'alpha' logged in successfully."}
+{"timestamp": "2026-02-21T05:45:04.538607+00:00", "level": "INFO", "message": "Starting hourly maintenance task."}
+{"timestamp": "2026-02-21T05:45:05.538607+00:00", "level": "INFO", "message": "User 'alpha' logged in successfully."}
+{"timestamp": "2026-02-21T05:45:06.538607+00:00", "level": "DEBUG", "message": "Sent 50 notification emails."}
+{"timestamp": "2026-02-21T05:45:07.538607+00:00", "level": "INFO", "message": "User 'alpha' logged in successfully."}
+{"timestamp": "2026-02-21T05:45:08.538607+00:00", "level": "INFO", "message": "Service 'notification-service' started."}
+{"timestamp": "2026-02-21T05:45:09.538607+00:00", "level": "INFO", "message": "Processing batch job #1310."}
+{"timestamp": "2026-02-21T05:45:10.538607+00:00", "level": "DEBUG", "message": "Data validation passed for job #1311."}
+{"timestamp": "2026-02-21T05:45:11.538607+00:00", "level": "ERROR", "message": "Failed to connect to database 'primary_db'. Connection refused."}
+{"timestamp": "2026-02-21T05:45:12.538607+00:00", "level": "DEBUG", "message": "Data validation passed for job #1313."}
+{"timestamp": "2026-02-21T05:45:13.538607+00:00", "level": "INFO", "message": "Starting hourly maintenance task."}
+{"timestamp": "2026-02-21T05:45:14.538607+00:00", "level": "DEBUG", "message": "Sent 50 notification emails."}
+{"timestamp": "2026-02-21T05:45:15.538607+00:00", "level": "INFO", "message": "Maintenance task completed."}
+{"timestamp": "2026-02-21T05:45:16.538607+00:00", "level": "INFO", "message": "Starting hourly maintenance task."}
+{"timestamp": "2026-02-21T05:45:17.538607+00:00", "level": "INFO", "message": "Service 'auth-service' started."}
+{"timestamp": "2026-02-21T05:45:18.538607+00:00", "level": "CRITICAL", "message": "Database connection failed permanently. Service 'data-processor' shutting down."}
+{"timestamp": "2026-02-21T05:45:19.538607+00:00", "level": "INFO", "message": "Processing batch job #1320."}
+{"timestamp": "2026-02-21T05:45:20.538607+00:00", "level": "WARN", "message": "Disk space on '/var/log' is running low (92% used)."}
+{"timestamp": "2026-02-21T05:45:21.538607+00:00", "level": "INFO", "message": "User 'alpha' logged in successfully."}
+{"timestamp": "2026-02-21T05:45:22.538607+00:00", "level": "DEBUG", "message": "Sent 50 notification emails."}
+{"timestamp": "2026-02-21T05:45:23.538607+00:00", "level": "CRITICAL", "message": "Database connection failed permanently. Service 'data-processor' shutting down."}
+{"timestamp": "2026-02-21T05:45:24.538607+00:00", "level": "INFO", "message": "User 'beta' logged in successfully."}
+{"timestamp": "2026-02-21T05:45:25.538607+00:00", "level": "DEBUG", "message": "Sent 50 notification emails."}
+{"timestamp": "2026-02-21T05:45:26.538607+00:00", "level": "WARN", "message": "API endpoint /api/v1/users deprecated. Please use /api/v2/users."}
+{"timestamp": "2026-02-21T05:45:27.538607+00:00", "level": "INFO", "message": "User 'beta' logged in successfully."}
+{"timestamp": "2026-02-21T05:45:28.538607+00:00", "level": "DEBUG", "message": "Sent 50 notification emails."}
+{"timestamp": "2026-02-21T05:45:29.538607+00:00", "level": "DEBUG", "message": "Data validation passed for job #1330."}
+{"timestamp": "2026-02-21T05:45:30.538607+00:00", "level": "CRITICAL", "message": "Database connection failed permanently. Service 'data-processor' shutting down."}
+{"timestamp": "2026-02-21T05:45:31.538607+00:00", "level": "WARN", "message": "API endpoint /api/v1/users deprecated. Please use /api/v2/users."}
+{"timestamp": "2026-02-21T05:45:32.538607+00:00", "level": "INFO", "message": "Starting hourly maintenance task."}
+{"timestamp": "2026-02-21T05:45:33.538607+00:00", "level": "INFO", "message": "Retrying connection to database... (2/3)"}
+{"timestamp": "2026-02-21T05:45:34.538607+00:00", "level": "INFO", "message": "Retrying connection to database... (2/3)"}
+{"timestamp": "2026-02-21T05:45:35.538607+00:00", "level": "WARN", "message": "API endpoint /api/v1/users deprecated. Please use /api/v2/users."}
+{"timestamp": "2026-02-21T05:45:36.538607+00:00", "level": "INFO", "message": "Starting hourly maintenance task."}
+{"timestamp": "2026-02-21T05:45:37.538607+00:00", "level": "INFO", "message": "Processing batch job #1338."}
+{"timestamp": "2026-02-21T05:45:38.538607+00:00", "level": "INFO", "message": "Maintenance task completed."}
+{"timestamp": "2026-02-21T05:45:39.538607+00:00", "level": "WARN", "message": "API endpoint /api/v1/users deprecated. Please use /api/v2/users."}
+{"timestamp": "2026-02-21T05:45:40.538607+00:00", "level": "WARN", "message": "Disk space on '/var/log' is running low (92% used)."}
+{"timestamp": "2026-02-21T05:45:41.538607+00:00", "level": "WARN", "message": "Disk space on '/var/log' is running low (92% used)."}
+{"timestamp": "2026-02-21T05:45:42.538607+00:00", "level": "ERROR", "message": "Failed to connect to database 'primary_db'. Connection refused."}
+{"timestamp": "2026-02-21T05:45:43.538607+00:00", "level": "ERROR", "message": "Failed to connect to database 'primary_db'. Connection refused."}
+{"timestamp": "2026-02-21T05:45:44.538607+00:00", "level": "DEBUG", "message": "Sent 50 notification emails."}
+{"timestamp": "2026-02-21T05:45:45.538607+00:00", "level": "ERROR", "message": "Failed to connect to database 'primary_db'. Connection refused."}
+{"timestamp": "2026-02-21T05:45:46.538607+00:00", "level": "INFO", "message": "Service 'notification-service' started."}
+{"timestamp": "2026-02-21T05:45:47.538607+00:00", "level": "ERROR", "message": "Failed to connect to database 'primary_db'. Connection refused."}
+{"timestamp": "2026-02-21T05:45:48.538607+00:00", "level": "INFO", "message": "Maintenance task completed."}
+{"timestamp": "2026-02-21T05:45:49.538607+00:00", "level": "INFO", "message": "Service 'auth-service' started."}
+{"timestamp": "2026-02-21T05:45:50.538607+00:00", "level": "CRITICAL", "message": "Database connection failed permanently. Service 'data-processor' shutting down."}
+{"timestamp": "2026-02-21T05:45:51.538607+00:00", "level": "CRITICAL", "message": "Database connection failed permanently. Service 'data-processor' shutting down."}
+{"timestamp": "2026-02-21T05:45:52.538607+00:00", "level": "ERROR", "message": "Failed to connect to database 'primary_db'. Connection refused."}
+{"timestamp": "2026-02-21T05:45:53.538607+00:00", "level": "INFO", "message": "Maintenance task completed."}
+{"timestamp": "2026-02-21T05:45:54.538607+00:00", "level": "ERROR", "message": "Failed to connect to database 'primary_db'. Connection refused."}
+{"timestamp": "2026-02-21T05:45:55.538607+00:00", "level": "INFO", "message": "Service 'auth-service' started."}
+{"timestamp": "2026-02-21T05:45:56.538607+00:00", "level": "ERROR", "message": "Failed to connect to database 'primary_db'. Connection refused."}
+{"timestamp": "2026-02-21T05:45:57.538607+00:00", "level": "INFO", "message": "Service 'auth-service' started."}
+{"timestamp": "2026-02-21T05:45:58.538607+00:00", "level": "WARN", "message": "API endpoint /api/v1/users deprecated. Please use /api/v2/users."}
+{"timestamp": "2026-02-21T05:45:59.538607+00:00", "level": "CRITICAL", "message": "Database connection failed permanently. Service 'data-processor' shutting down."}
+{"timestamp": "2026-02-21T05:46:00.538607+00:00", "level": "INFO", "message": "Maintenance task completed."}
+{"timestamp": "2026-02-21T05:46:01.538607+00:00", "level": "INFO", "message": "Processing batch job #1362."}
+{"timestamp": "2026-02-21T05:46:02.538607+00:00", "level": "INFO", "message": "Maintenance task completed."}
+{"timestamp": "2026-02-21T05:46:03.538607+00:00", "level": "INFO", "message": "Retrying connection to database... (2/3)"}
+{"timestamp": "2026-02-21T05:46:04.538607+00:00", "level": "INFO", "message": "Processing batch job #1365."}
+{"timestamp": "2026-02-21T05:46:05.538607+00:00", "level": "INFO", "message": "Retrying connection to database... (2/3)"}
+{"timestamp": "2026-02-21T05:46:06.538607+00:00", "level": "ERROR", "message": "Failed to connect to database 'primary_db'. Connection refused."}
+{"timestamp": "2026-02-21T05:46:07.538607+00:00", "level": "ERROR", "message": "Failed to connect to database 'primary_db'. Connection refused."}
+{"timestamp": "2026-02-21T05:46:08.538607+00:00", "level": "INFO", "message": "Retrying connection to database... (2/3)"}
+{"timestamp": "2026-02-21T05:46:09.538607+00:00", "level": "INFO", "message": "User 'alpha' logged in successfully."}
+{"timestamp": "2026-02-21T05:46:10.538607+00:00", "level": "DEBUG", "message": "Data validation passed for job #1371."}
+{"timestamp": "2026-02-21T05:46:11.538607+00:00", "level": "DEBUG", "message": "Data validation passed for job #1372."}
+{"timestamp": "2026-02-21T05:46:12.538607+00:00", "level": "ERROR", "message": "Failed to connect to database 'primary_db'. Connection refused."}
+{"timestamp": "2026-02-21T05:46:13.538607+00:00", "level": "ERROR", "message": "Failed to connect to database 'primary_db'. Connection refused."}
+{"timestamp": "2026-02-21T05:46:14.538607+00:00", "level": "WARN", "message": "Disk space on '/var/log' is running low (92% used)."}
+{"timestamp": "2026-02-21T05:46:15.538607+00:00", "level": "INFO", "message": "Service 'notification-service' started."}
+{"timestamp": "2026-02-21T05:46:16.538607+00:00", "level": "INFO", "message": "User 'beta' logged in successfully."}
+{"timestamp": "2026-02-21T05:46:17.538607+00:00", "level": "INFO", "message": "Processing batch job #1378."}
+{"timestamp": "2026-02-21T05:46:18.538607+00:00", "level": "INFO", "message": "Retrying connection to database... (2/3)"}
+{"timestamp": "2026-02-21T05:46:19.538607+00:00", "level": "INFO", "message": "Processing batch job #1380."}
+{"timestamp": "2026-02-21T05:46:20.538607+00:00", "level": "INFO", "message": "Service 'auth-service' started."}
+{"timestamp": "2026-02-21T05:46:21.538607+00:00", "level": "CRITICAL", "message": "Database connection failed permanently. Service 'data-processor' shutting down."}
+{"timestamp": "2026-02-21T05:46:22.538607+00:00", "level": "DEBUG", "message": "Data validation passed for job #1383."}
+{"timestamp": "2026-02-21T05:46:23.538607+00:00", "level": "WARN", "message": "Disk space on '/var/log' is running low (92% used)."}
+{"timestamp": "2026-02-21T05:46:24.538607+00:00", "level": "INFO", "message": "Starting hourly maintenance task."}
+{"timestamp": "2026-02-21T05:46:25.538607+00:00", "level": "WARN", "message": "API endpoint /api/v1/users deprecated. Please use /api/v2/users."}
+{"timestamp": "2026-02-21T05:46:26.538607+00:00", "level": "INFO", "message": "Starting hourly maintenance task."}
+{"timestamp": "2026-02-21T05:46:27.538607+00:00", "level": "INFO", "message": "Processing batch job #1388."}
+{"timestamp": "2026-02-21T05:46:28.538607+00:00", "level": "ERROR", "message": "Failed to connect to database 'primary_db'. Connection refused."}
+{"timestamp": "2026-02-21T05:46:29.538607+00:00", "level": "ERROR", "message": "Failed to connect to database 'primary_db'. Connection refused."}
+{"timestamp": "2026-02-21T05:46:30.538607+00:00", "level": "DEBUG", "message": "Data validation passed for job #1391."}
+{"timestamp": "2026-02-21T05:46:31.538607+00:00", "level": "INFO", "message": "Service 'notification-service' started."}
+{"timestamp": "2026-02-21T05:46:32.538607+00:00", "level": "INFO", "message": "Service 'auth-service' started."}
+{"timestamp": "2026-02-21T05:46:33.538607+00:00", "level": "INFO", "message": "Service 'notification-service' started."}
+{"timestamp": "2026-02-21T05:46:34.538607+00:00", "level": "INFO", "message": "Starting hourly maintenance task."}
+{"timestamp": "2026-02-21T05:46:35.538607+00:00", "level": "INFO", "message": "Retrying connection to database... (2/3)"}
+{"timestamp": "2026-02-21T05:46:36.538607+00:00", "level": "WARN", "message": "API endpoint /api/v1/users deprecated. Please use /api/v2/users."}
+{"timestamp": "2026-02-21T05:46:37.538607+00:00", "level": "INFO", "message": "Retrying connection to database... (1/3)"}
+{"timestamp": "2026-02-21T05:46:38.538607+00:00", "level": "INFO", "message": "Maintenance task completed."}
+{"timestamp": "2026-02-21T05:46:39.538607+00:00", "level": "CRITICAL", "message": "Database connection failed permanently. Service 'data-processor' shutting down."}
+{"timestamp": "2026-02-21T05:46:40.538607+00:00", "level": "INFO", "message": "User 'beta' logged in successfully."}
+{"timestamp": "2026-02-21T05:46:41.538607+00:00", "level": "DEBUG", "message": "Sent 50 notification emails."}
+{"timestamp": "2026-02-21T05:46:42.538607+00:00", "level": "ERROR", "message": "Failed to connect to database 'primary_db'. Connection refused."}
+{"timestamp": "2026-02-21T05:46:43.538607+00:00", "level": "WARN", "message": "API endpoint /api/v1/users deprecated. Please use /api/v2/users."}
+{"timestamp": "2026-02-21T05:46:44.538607+00:00", "level": "WARN", "message": "API endpoint /api/v1/users deprecated. Please use /api/v2/users."}
+{"timestamp": "2026-02-21T05:46:45.538607+00:00", "level": "WARN", "message": "Disk space on '/var/log' is running low (92% used)."}
+{"timestamp": "2026-02-21T05:46:46.538607+00:00", "level": "INFO", "message": "Retrying connection to database... (1/3)"}
+{"timestamp": "2026-02-21T05:46:47.538607+00:00", "level": "DEBUG", "message": "Sent 50 notification emails."}
+{"timestamp": "2026-02-21T05:46:48.538607+00:00", "level": "INFO", "message": "Retrying connection to database... (1/3)"}
+{"timestamp": "2026-02-21T05:46:49.538607+00:00", "level": "INFO", "message": "Maintenance task completed."}
+{"timestamp": "2026-02-21T05:46:50.538607+00:00", "level": "WARN", "message": "Disk space on '/var/log' is running low (92% used)."}
+{"timestamp": "2026-02-21T05:46:51.538607+00:00", "level": "INFO", "message": "Starting hourly maintenance task."}
+{"timestamp": "2026-02-21T05:46:52.538607+00:00", "level": "INFO", "message": "Retrying connection to database... (2/3)"}
+{"timestamp": "2026-02-21T05:46:53.538607+00:00", "level": "INFO", "message": "Retrying connection to database... (1/3)"}
+{"timestamp": "2026-02-21T05:46:54.538607+00:00", "level": "CRITICAL", "message": "Database connection failed permanently. Service 'data-processor' shutting down."}
+{"timestamp": "2026-02-21T05:46:55.538607+00:00", "level": "INFO", "message": "User 'beta' logged in successfully."}
+{"timestamp": "2026-02-21T05:46:56.538607+00:00", "level": "INFO", "message": "Maintenance task completed."}
+{"timestamp": "2026-02-21T05:46:57.538607+00:00", "level": "INFO", "message": "Retrying connection to database... (1/3)"}
+{"timestamp": "2026-02-21T05:46:58.538607+00:00", "level": "DEBUG", "message": "Data validation passed for job #1419."}
+{"timestamp": "2026-02-21T05:46:59.538607+00:00", "level": "INFO", "message": "Processing batch job #1420."}
+{"timestamp": "2026-02-21T05:47:00.538607+00:00", "level": "DEBUG", "message": "Data validation passed for job #1421."}
+{"timestamp": "2026-02-21T05:47:01.538607+00:00", "level": "DEBUG", "message": "Data validation passed for job #1422."}
+{"timestamp": "2026-02-21T05:47:02.538607+00:00", "level": "ERROR", "message": "Failed to connect to database 'primary_db'. Connection refused."}
+{"timestamp": "2026-02-21T05:47:03.538607+00:00", "level": "ERROR", "message": "Failed to connect to database 'primary_db'. Connection refused."}
+{"timestamp": "2026-02-21T05:47:04.538607+00:00", "level": "WARN", "message": "Disk space on '/var/log' is running low (92% used)."}
+{"timestamp": "2026-02-21T05:47:05.538607+00:00", "level": "DEBUG", "message": "Data validation passed for job #1426."}
+{"timestamp": "2026-02-21T05:47:06.538607+00:00", "level": "INFO", "message": "Service 'auth-service' started."}
+{"timestamp": "2026-02-21T05:47:07.538607+00:00", "level": "ERROR", "message": "Failed to connect to database 'primary_db'. Connection refused."}
+{"timestamp": "2026-02-21T05:47:08.538607+00:00", "level": "INFO", "message": "Retrying connection to database... (1/3)"}
+{"timestamp": "2026-02-21T05:47:09.538607+00:00", "level": "INFO", "message": "Maintenance task completed."}
+{"timestamp": "2026-02-21T05:47:10.538607+00:00", "level": "INFO", "message": "Service 'notification-service' started."}
+{"timestamp": "2026-02-21T05:47:11.538607+00:00", "level": "INFO", "message": "Service 'auth-service' started."}
+{"timestamp": "2026-02-21T05:47:12.538607+00:00", "level": "INFO", "message": "Service 'notification-service' started."}
+{"timestamp": "2026-02-21T05:47:13.538607+00:00", "level": "INFO", "message": "Service 'notification-service' started."}
+{"timestamp": "2026-02-21T05:47:14.538607+00:00", "level": "WARN", "message": "Disk space on '/var/log' is running low (92% used)."}
+{"timestamp": "2026-02-21T05:47:15.538607+00:00", "level": "DEBUG", "message": "Data validation passed for job #1436."}
+{"timestamp": "2026-02-21T05:47:16.538607+00:00", "level": "WARN", "message": "API endpoint /api/v1/users deprecated. Please use /api/v2/users."}
+{"timestamp": "2026-02-21T05:47:17.538607+00:00", "level": "INFO", "message": "Maintenance task completed."}
+{"timestamp": "2026-02-21T05:47:18.538607+00:00", "level": "ERROR", "message": "Failed to connect to database 'primary_db'. Connection refused."}
+{"timestamp": "2026-02-21T05:47:19.538607+00:00", "level": "INFO", "message": "Service 'auth-service' started."}
+{"timestamp": "2026-02-21T05:47:20.538607+00:00", "level": "WARN", "message": "Disk space on '/var/log' is running low (92% used)."}
+{"timestamp": "2026-02-21T05:47:21.538607+00:00", "level": "INFO", "message": "Retrying connection to database... (2/3)"}
+{"timestamp": "2026-02-21T05:47:22.538607+00:00", "level": "INFO", "message": "Service 'auth-service' started."}
+{"timestamp": "2026-02-21T05:47:23.538607+00:00", "level": "DEBUG", "message": "Sent 50 notification emails."}
+{"timestamp": "2026-02-21T05:47:24.538607+00:00", "level": "WARN", "message": "API endpoint /api/v1/users deprecated. Please use /api/v2/users."}
+{"timestamp": "2026-02-21T05:47:25.538607+00:00", "level": "CRITICAL", "message": "Database connection failed permanently. Service 'data-processor' shutting down."}
+{"timestamp": "2026-02-21T05:47:26.538607+00:00", "level": "DEBUG", "message": "Data validation passed for job #1447."}
+{"timestamp": "2026-02-21T05:47:27.538607+00:00", "level": "WARN", "message": "Disk space on '/var/log' is running low (92% used)."}
+{"timestamp": "2026-02-21T05:47:28.538607+00:00", "level": "INFO", "message": "User 'beta' logged in successfully."}
+{"timestamp": "2026-02-21T05:47:29.538607+00:00", "level": "INFO", "message": "User 'alpha' logged in successfully."}
+{"timestamp": "2026-02-21T05:47:30.538607+00:00", "level": "INFO", "message": "Maintenance task completed."}
+{"timestamp": "2026-02-21T05:47:31.538607+00:00", "level": "INFO", "message": "Service 'auth-service' started."}
+{"timestamp": "2026-02-21T05:47:32.538607+00:00", "level": "WARN", "message": "API endpoint /api/v1/users deprecated. Please use /api/v2/users."}
+{"timestamp": "2026-02-21T05:47:33.538607+00:00", "level": "INFO", "message": "Maintenance task completed."}
+{"timestamp": "2026-02-21T05:47:34.538607+00:00", "level": "INFO", "message": "User 'beta' logged in successfully."}
+{"timestamp": "2026-02-21T05:47:35.538607+00:00", "level": "CRITICAL", "message": "Database connection failed permanently. Service 'data-processor' shutting down."}
+{"timestamp": "2026-02-21T05:47:36.538607+00:00", "level": "DEBUG", "message": "Sent 50 notification emails."}
+{"timestamp": "2026-02-21T05:47:37.538607+00:00", "level": "CRITICAL", "message": "Database connection failed permanently. Service 'data-processor' shutting down."}
+{"timestamp": "2026-02-21T05:47:38.538607+00:00", "level": "INFO", "message": "User 'alpha' logged in successfully."}
+{"timestamp": "2026-02-21T05:47:39.538607+00:00", "level": "INFO", "message": "Retrying connection to database... (2/3)"}
+{"timestamp": "2026-02-21T05:47:40.538607+00:00", "level": "ERROR", "message": "Failed to connect to database 'primary_db'. Connection refused."}
+{"timestamp": "2026-02-21T05:47:41.538607+00:00", "level": "WARN", "message": "Disk space on '/var/log' is running low (92% used)."}
+{"timestamp": "2026-02-21T05:47:42.538607+00:00", "level": "INFO", "message": "Retrying connection to database... (1/3)"}
+{"timestamp": "2026-02-21T05:47:43.538607+00:00", "level": "INFO", "message": "Service 'auth-service' started."}
+{"timestamp": "2026-02-21T05:47:44.538607+00:00", "level": "INFO", "message": "Retrying connection to database... (1/3)"}
+{"timestamp": "2026-02-21T05:47:45.538607+00:00", "level": "INFO", "message": "User 'alpha' logged in successfully."}
+{"timestamp": "2026-02-21T05:47:46.538607+00:00", "level": "DEBUG", "message": "Sent 50 notification emails."}
+{"timestamp": "2026-02-21T05:47:47.538607+00:00", "level": "ERROR", "message": "Failed to connect to database 'primary_db'. Connection refused."}
+{"timestamp": "2026-02-21T05:47:48.538607+00:00", "level": "INFO", "message": "Retrying connection to database... (1/3)"}
+{"timestamp": "2026-02-21T05:47:49.538607+00:00", "level": "INFO", "message": "Maintenance task completed."}
+{"timestamp": "2026-02-21T05:47:50.538607+00:00", "level": "INFO", "message": "Retrying connection to database... (2/3)"}
+{"timestamp": "2026-02-21T05:47:51.538607+00:00", "level": "INFO", "message": "Starting hourly maintenance task."}
+{"timestamp": "2026-02-21T05:47:52.538607+00:00", "level": "INFO", "message": "Service 'auth-service' started."}
+{"timestamp": "2026-02-21T05:47:53.538607+00:00", "level": "INFO", "message": "Service 'notification-service' started."}
+{"timestamp": "2026-02-21T05:47:54.538607+00:00", "level": "DEBUG", "message": "Sent 50 notification emails."}
+{"timestamp": "2026-02-21T05:47:55.538607+00:00", "level": "CRITICAL", "message": "Database connection failed permanently. Service 'data-processor' shutting down."}
+{"timestamp": "2026-02-21T05:47:56.538607+00:00", "level": "INFO", "message": "User 'alpha' logged in successfully."}
+{"timestamp": "2026-02-21T05:47:57.538607+00:00", "level": "DEBUG", "message": "Sent 50 notification emails."}
+{"timestamp": "2026-02-21T05:47:58.538607+00:00", "level": "DEBUG", "message": "Sent 50 notification emails."}
+{"timestamp": "2026-02-21T05:47:59.538607+00:00", "level": "CRITICAL", "message": "Database connection failed permanently. Service 'data-processor' shutting down."}
+{"timestamp": "2026-02-21T05:48:00.538607+00:00", "level": "INFO", "message": "User 'alpha' logged in successfully."}
+{"timestamp": "2026-02-21T05:48:01.538607+00:00", "level": "INFO", "message": "User 'alpha' logged in successfully."}
+{"timestamp": "2026-02-21T05:48:02.538607+00:00", "level": "INFO", "message": "Service 'notification-service' started."}
+{"timestamp": "2026-02-21T05:48:03.538607+00:00", "level": "CRITICAL", "message": "Database connection failed permanently. Service 'data-processor' shutting down."}
+{"timestamp": "2026-02-21T05:48:04.538607+00:00", "level": "INFO", "message": "Service 'notification-service' started."}
+{"timestamp": "2026-02-21T05:48:05.538607+00:00", "level": "INFO", "message": "Maintenance task completed."}
+{"timestamp": "2026-02-21T05:48:06.538607+00:00", "level": "INFO", "message": "Retrying connection to database... (1/3)"}
+{"timestamp": "2026-02-21T05:48:07.538607+00:00", "level": "INFO", "message": "Starting hourly maintenance task."}
+{"timestamp": "2026-02-21T05:48:08.538607+00:00", "level": "INFO", "message": "Maintenance task completed."}
+{"timestamp": "2026-02-21T05:48:09.538607+00:00", "level": "INFO", "message": "User 'beta' logged in successfully."}
+{"timestamp": "2026-02-21T05:48:10.538607+00:00", "level": "DEBUG", "message": "Sent 50 notification emails."}
+{"timestamp": "2026-02-21T05:48:11.538607+00:00", "level": "INFO", "message": "User 'beta' logged in successfully."}
+{"timestamp": "2026-02-21T05:48:12.538607+00:00", "level": "INFO", "message": "Service 'notification-service' started."}
+{"timestamp": "2026-02-21T05:48:13.538607+00:00", "level": "INFO", "message": "Retrying connection to database... (2/3)"}
+{"timestamp": "2026-02-21T05:48:14.538607+00:00", "level": "INFO", "message": "Service 'auth-service' started."}
+{"timestamp": "2026-02-21T05:48:15.538607+00:00", "level": "INFO", "message": "Maintenance task completed."}
+{"timestamp": "2026-02-21T05:48:16.538607+00:00", "level": "INFO", "message": "Maintenance task completed."}
+{"timestamp": "2026-02-21T05:48:17.538607+00:00", "level": "DEBUG", "message": "Data validation passed for job #1498."}
+{"timestamp": "2026-02-21T05:48:18.538607+00:00", "level": "ERROR", "message": "Failed to connect to database 'primary_db'. Connection refused."}
+{"timestamp": "2026-02-21T05:48:19.538607+00:00", "level": "INFO", "message": "User 'alpha' logged in successfully."}
+{"timestamp": "2026-02-21T05:48:20.538607+00:00", "level": "INFO", "message": "Processing batch job #1501."}
+{"timestamp": "2026-02-21T05:48:21.538607+00:00", "level": "INFO", "message": "Starting hourly maintenance task."}
+{"timestamp": "2026-02-21T05:48:22.538607+00:00", "level": "CRITICAL", "message": "Database connection failed permanently. Service 'data-processor' shutting down."}
+{"timestamp": "2026-02-21T05:48:23.538607+00:00", "level": "INFO", "message": "Retrying connection to database... (1/3)"}
+{"timestamp": "2026-02-21T05:48:24.538607+00:00", "level": "INFO", "message": "Processing batch job #1505."}
+{"timestamp": "2026-02-21T05:48:25.538607+00:00", "level": "INFO", "message": "Maintenance task completed."}
+{"timestamp": "2026-02-21T05:48:26.538607+00:00", "level": "WARN", "message": "API endpoint /api/v1/users deprecated. Please use /api/v2/users."}
+{"timestamp": "2026-02-21T05:48:27.538607+00:00", "level": "WARN", "message": "API endpoint /api/v1/users deprecated. Please use /api/v2/users."}
+{"timestamp": "2026-02-21T05:48:28.538607+00:00", "level": "INFO", "message": "User 'alpha' logged in successfully."}
+{"timestamp": "2026-02-21T05:48:29.538607+00:00", "level": "INFO", "message": "Processing batch job #1510."}
+{"timestamp": "2026-02-21T05:48:30.538607+00:00", "level": "INFO", "message": "Retrying connection to database... (1/3)"}
+{"timestamp": "2026-02-21T05:48:31.538607+00:00", "level": "ERROR", "message": "Failed to connect to database 'primary_db'. Connection refused."}
+{"timestamp": "2026-02-21T05:48:32.538607+00:00", "level": "INFO", "message": "Processing batch job #1513."}
+{"timestamp": "2026-02-21T05:48:33.538607+00:00", "level": "INFO", "message": "Starting hourly maintenance task."}
+{"timestamp": "2026-02-21T05:48:34.538607+00:00", "level": "WARN", "message": "Disk space on '/var/log' is running low (92% used)."}
+{"timestamp": "2026-02-21T05:48:35.538607+00:00", "level": "INFO", "message": "Service 'auth-service' started."}
+{"timestamp": "2026-02-21T05:48:36.538607+00:00", "level": "INFO", "message": "Service 'auth-service' started."}
+{"timestamp": "2026-02-21T05:48:37.538607+00:00", "level": "INFO", "message": "Service 'auth-service' started."}
+{"timestamp": "2026-02-21T05:48:38.538607+00:00", "level": "INFO", "message": "User 'alpha' logged in successfully."}
+{"timestamp": "2026-02-21T05:48:39.538607+00:00", "level": "INFO", "message": "Service 'notification-service' started."}
+{"timestamp": "2026-02-21T05:48:40.538607+00:00", "level": "ERROR", "message": "Failed to connect to database 'primary_db'. Connection refused."}
+{"timestamp": "2026-02-21T05:48:41.538607+00:00", "level": "WARN", "message": "API endpoint /api/v1/users deprecated. Please use /api/v2/users."}
+{"timestamp": "2026-02-21T05:48:42.538607+00:00", "level": "INFO", "message": "Retrying connection to database... (1/3)"}
+{"timestamp": "2026-02-21T05:48:43.538607+00:00", "level": "DEBUG", "message": "Sent 50 notification emails."}
+{"timestamp": "2026-02-21T05:48:44.538607+00:00", "level": "INFO", "message": "Service 'auth-service' started."}
+{"timestamp": "2026-02-21T05:48:45.538607+00:00", "level": "ERROR", "message": "Failed to connect to database 'primary_db'. Connection refused."}
+{"timestamp": "2026-02-21T05:48:46.538607+00:00", "level": "INFO", "message": "Service 'auth-service' started."}
+{"timestamp": "2026-02-21T05:48:47.538607+00:00", "level": "INFO", "message": "Starting hourly maintenance task."}
+{"timestamp": "2026-02-21T05:48:48.538607+00:00", "level": "WARN", "message": "API endpoint /api/v1/users deprecated. Please use /api/v2/users."}
+{"timestamp": "2026-02-21T05:48:49.538607+00:00", "level": "DEBUG", "message": "Sent 50 notification emails."}
+{"timestamp": "2026-02-21T05:48:50.538607+00:00", "level": "INFO", "message": "Processing batch job #1531."}
+{"timestamp": "2026-02-21T05:48:51.538607+00:00", "level": "INFO", "message": "User 'alpha' logged in successfully."}
+{"timestamp": "2026-02-21T05:48:52.538607+00:00", "level": "ERROR", "message": "Failed to connect to database 'primary_db'. Connection refused."}
+{"timestamp": "2026-02-21T05:48:53.538607+00:00", "level": "INFO", "message": "Retrying connection to database... (1/3)"}
+{"timestamp": "2026-02-21T05:48:54.538607+00:00", "level": "CRITICAL", "message": "Database connection failed permanently. Service 'data-processor' shutting down."}
+{"timestamp": "2026-02-21T05:48:55.538607+00:00", "level": "INFO", "message": "Starting hourly maintenance task."}
+{"timestamp": "2026-02-21T05:48:56.538607+00:00", "level": "INFO", "message": "Service 'auth-service' started."}
+{"timestamp": "2026-02-21T05:48:57.538607+00:00", "level": "WARN", "message": "API endpoint /api/v1/users deprecated. Please use /api/v2/users."}
+{"timestamp": "2026-02-21T05:48:58.538607+00:00", "level": "INFO", "message": "Retrying connection to database... (1/3)"}
+{"timestamp": "2026-02-21T05:48:59.538607+00:00", "level": "INFO", "message": "Processing batch job #1540."}
+{"timestamp": "2026-02-21T05:49:00.538607+00:00", "level": "WARN", "message": "Disk space on '/var/log' is running low (92% used)."}
+{"timestamp": "2026-02-21T05:49:01.538607+00:00", "level": "INFO", "message": "Service 'auth-service' started."}
+{"timestamp": "2026-02-21T05:49:02.538607+00:00", "level": "ERROR", "message": "Failed to connect to database 'primary_db'. Connection refused."}
+{"timestamp": "2026-02-21T05:49:03.538607+00:00", "level": "DEBUG", "message": "Sent 50 notification emails."}
+{"timestamp": "2026-02-21T05:49:04.538607+00:00", "level": "DEBUG", "message": "Data validation passed for job #1545."}
+{"timestamp": "2026-02-21T05:49:05.538607+00:00", "level": "CRITICAL", "message": "Database connection failed permanently. Service 'data-processor' shutting down."}
+{"timestamp": "2026-02-21T05:49:06.538607+00:00", "level": "INFO", "message": "User 'beta' logged in successfully."}
+{"timestamp": "2026-02-21T05:49:07.538607+00:00", "level": "INFO", "message": "Retrying connection to database... (1/3)"}
+{"timestamp": "2026-02-21T05:49:08.538607+00:00", "level": "INFO", "message": "Retrying connection to database... (2/3)"}
+{"timestamp": "2026-02-21T05:49:09.538607+00:00", "level": "INFO", "message": "Retrying connection to database... (1/3)"}
+{"timestamp": "2026-02-21T05:49:10.538607+00:00", "level": "WARN", "message": "API endpoint /api/v1/users deprecated. Please use /api/v2/users."}
+{"timestamp": "2026-02-21T05:49:11.538607+00:00", "level": "WARN", "message": "API endpoint /api/v1/users deprecated. Please use /api/v2/users."}
+{"timestamp": "2026-02-21T05:49:12.538607+00:00", "level": "INFO", "message": "Processing batch job #1553."}
+{"timestamp": "2026-02-21T05:49:13.538607+00:00", "level": "INFO", "message": "User 'alpha' logged in successfully."}
+{"timestamp": "2026-02-21T05:49:14.538607+00:00", "level": "INFO", "message": "User 'alpha' logged in successfully."}
+{"timestamp": "2026-02-21T05:49:15.538607+00:00", "level": "INFO", "message": "Retrying connection to database... (2/3)"}
+{"timestamp": "2026-02-21T05:49:16.538607+00:00", "level": "INFO", "message": "Service 'notification-service' started."}
+{"timestamp": "2026-02-21T05:49:17.538607+00:00", "level": "INFO", "message": "User 'beta' logged in successfully."}
+{"timestamp": "2026-02-21T05:49:18.538607+00:00", "level": "WARN", "message": "Disk space on '/var/log' is running low (92% used)."}
+{"timestamp": "2026-02-21T05:49:19.538607+00:00", "level": "ERROR", "message": "Failed to connect to database 'primary_db'. Connection refused."}
+{"timestamp": "2026-02-21T05:49:20.538607+00:00", "level": "INFO", "message": "User 'beta' logged in successfully."}
+{"timestamp": "2026-02-21T05:49:21.538607+00:00", "level": "INFO", "message": "Retrying connection to database... (2/3)"}
+{"timestamp": "2026-02-21T05:49:22.538607+00:00", "level": "INFO", "message": "Processing batch job #1563."}
+{"timestamp": "2026-02-21T05:49:23.538607+00:00", "level": "INFO", "message": "Maintenance task completed."}
+{"timestamp": "2026-02-21T05:49:24.538607+00:00", "level": "INFO", "message": "Retrying connection to database... (2/3)"}
+{"timestamp": "2026-02-21T05:49:25.538607+00:00", "level": "ERROR", "message": "Failed to connect to database 'primary_db'. Connection refused."}
+{"timestamp": "2026-02-21T05:49:26.538607+00:00", "level": "WARN", "message": "Disk space on '/var/log' is running low (92% used)."}
+{"timestamp": "2026-02-21T05:49:27.538607+00:00", "level": "DEBUG", "message": "Sent 50 notification emails."}
+{"timestamp": "2026-02-21T05:49:28.538607+00:00", "level": "ERROR", "message": "Failed to connect to database 'primary_db'. Connection refused."}
+{"timestamp": "2026-02-21T05:49:29.538607+00:00", "level": "ERROR", "message": "Failed to connect to database 'primary_db'. Connection refused."}
+{"timestamp": "2026-02-21T05:49:30.538607+00:00", "level": "INFO", "message": "Maintenance task completed."}
+{"timestamp": "2026-02-21T05:49:31.538607+00:00", "level": "INFO", "message": "Maintenance task completed."}
+{"timestamp": "2026-02-21T05:49:32.538607+00:00", "level": "INFO", "message": "Processing batch job #1573."}
+{"timestamp": "2026-02-21T05:49:33.538607+00:00", "level": "INFO", "message": "Processing batch job #1574."}
+{"timestamp": "2026-02-21T05:49:34.538607+00:00", "level": "INFO", "message": "Retrying connection to database... (2/3)"}
+{"timestamp": "2026-02-21T05:49:35.538607+00:00", "level": "INFO", "message": "User 'beta' logged in successfully."}
+{"timestamp": "2026-02-21T05:49:36.538607+00:00", "level": "DEBUG", "message": "Data validation passed for job #1577."}
+{"timestamp": "2026-02-21T05:49:37.538607+00:00", "level": "WARN", "message": "Disk space on '/var/log' is running low (92% used)."}
+{"timestamp": "2026-02-21T05:49:38.538607+00:00", "level": "DEBUG", "message": "Sent 50 notification emails."}
+{"timestamp": "2026-02-21T05:49:39.538607+00:00", "level": "INFO", "message": "User 'alpha' logged in successfully."}
+{"timestamp": "2026-02-21T05:49:40.538607+00:00", "level": "WARN", "message": "Disk space on '/var/log' is running low (92% used)."}
+{"timestamp": "2026-02-21T05:49:41.538607+00:00", "level": "ERROR", "message": "Failed to connect to database 'primary_db'. Connection refused."}
+{"timestamp": "2026-02-21T05:49:42.538607+00:00", "level": "INFO", "message": "User 'beta' logged in successfully."}
+{"timestamp": "2026-02-21T05:49:43.538607+00:00", "level": "CRITICAL", "message": "Database connection failed permanently. Service 'data-processor' shutting down."}
+{"timestamp": "2026-02-21T05:49:44.538607+00:00", "level": "ERROR", "message": "Failed to connect to database 'primary_db'. Connection refused."}
+{"timestamp": "2026-02-21T05:49:45.538607+00:00", "level": "INFO", "message": "Service 'auth-service' started."}
+{"timestamp": "2026-02-21T05:49:46.538607+00:00", "level": "WARN", "message": "Disk space on '/var/log' is running low (92% used)."}
+{"timestamp": "2026-02-21T05:49:47.538607+00:00", "level": "INFO", "message": "User 'beta' logged in successfully."}
+{"timestamp": "2026-02-21T05:49:48.538607+00:00", "level": "WARN", "message": "API endpoint /api/v1/users deprecated. Please use /api/v2/users."}
+{"timestamp": "2026-02-21T05:49:49.538607+00:00", "level": "WARN", "message": "API endpoint /api/v1/users deprecated. Please use /api/v2/users."}
+{"timestamp": "2026-02-21T05:49:50.538607+00:00", "level": "INFO", "message": "Starting hourly maintenance task."}
+{"timestamp": "2026-02-21T05:49:51.538607+00:00", "level": "INFO", "message": "Service 'auth-service' started."}
+{"timestamp": "2026-02-21T05:49:52.538607+00:00", "level": "WARN", "message": "API endpoint /api/v1/users deprecated. Please use /api/v2/users."}
+{"timestamp": "2026-02-21T05:49:53.538607+00:00", "level": "WARN", "message": "API endpoint /api/v1/users deprecated. Please use /api/v2/users."}
+{"timestamp": "2026-02-21T05:49:54.538607+00:00", "level": "INFO", "message": "Service 'notification-service' started."}
+{"timestamp": "2026-02-21T05:49:55.538607+00:00", "level": "INFO", "message": "Starting hourly maintenance task."}
+{"timestamp": "2026-02-21T05:49:56.538607+00:00", "level": "INFO", "message": "User 'beta' logged in successfully."}
+{"timestamp": "2026-02-21T05:49:57.538607+00:00", "level": "INFO", "message": "Retrying connection to database... (1/3)"}
+{"timestamp": "2026-02-21T05:49:58.538607+00:00", "level": "ERROR", "message": "Failed to connect to database 'primary_db'. Connection refused."}
+{"timestamp": "2026-02-21T05:49:59.538607+00:00", "level": "WARN", "message": "API endpoint /api/v1/users deprecated. Please use /api/v2/users."}
+{"timestamp": "2026-02-21T05:50:00.538607+00:00", "level": "WARN", "message": "API endpoint /api/v1/users deprecated. Please use /api/v2/users."}
+{"timestamp": "2026-02-21T05:50:01.538607+00:00", "level": "DEBUG", "message": "Data validation passed for job #1602."}
+{"timestamp": "2026-02-21T05:50:02.538607+00:00", "level": "INFO", "message": "Retrying connection to database... (1/3)"}
+{"timestamp": "2026-02-21T05:50:03.538607+00:00", "level": "INFO", "message": "Starting hourly maintenance task."}
+{"timestamp": "2026-02-21T05:50:04.538607+00:00", "level": "ERROR", "message": "Failed to connect to database 'primary_db'. Connection refused."}
+{"timestamp": "2026-02-21T05:50:05.538607+00:00", "level": "ERROR", "message": "Failed to connect to database 'primary_db'. Connection refused."}
+{"timestamp": "2026-02-21T05:50:06.538607+00:00", "level": "INFO", "message": "User 'beta' logged in successfully."}
+{"timestamp": "2026-02-21T05:50:07.538607+00:00", "level": "CRITICAL", "message": "Database connection failed permanently. Service 'data-processor' shutting down."}
+{"timestamp": "2026-02-21T05:50:08.538607+00:00", "level": "CRITICAL", "message": "Database connection failed permanently. Service 'data-processor' shutting down."}
+{"timestamp": "2026-02-21T05:50:09.538607+00:00", "level": "INFO", "message": "Service 'notification-service' started."}
+{"timestamp": "2026-02-21T05:50:10.538607+00:00", "level": "INFO", "message": "Retrying connection to database... (2/3)"}
+{"timestamp": "2026-02-21T05:50:11.538607+00:00", "level": "INFO", "message": "Service 'auth-service' started."}
+{"timestamp": "2026-02-21T05:50:12.538607+00:00", "level": "INFO", "message": "Retrying connection to database... (2/3)"}
+{"timestamp": "2026-02-21T05:50:13.538607+00:00", "level": "INFO", "message": "Retrying connection to database... (2/3)"}
+{"timestamp": "2026-02-21T05:50:14.538607+00:00", "level": "ERROR", "message": "Failed to connect to database 'primary_db'. Connection refused."}
+{"timestamp": "2026-02-21T05:50:15.538607+00:00", "level": "INFO", "message": "Retrying connection to database... (1/3)"}
+{"timestamp": "2026-02-21T05:50:16.538607+00:00", "level": "DEBUG", "message": "Sent 50 notification emails."}
+{"timestamp": "2026-02-21T05:50:17.538607+00:00", "level": "DEBUG", "message": "Data validation passed for job #1618."}
+{"timestamp": "2026-02-21T05:50:18.538607+00:00", "level": "ERROR", "message": "Failed to connect to database 'primary_db'. Connection refused."}
+{"timestamp": "2026-02-21T05:50:19.538607+00:00", "level": "ERROR", "message": "Failed to connect to database 'primary_db'. Connection refused."}
+{"timestamp": "2026-02-21T05:50:20.538607+00:00", "level": "INFO", "message": "User 'alpha' logged in successfully."}
+{"timestamp": "2026-02-21T05:50:21.538607+00:00", "level": "INFO", "message": "Retrying connection to database... (1/3)"}
+{"timestamp": "2026-02-21T05:50:22.538607+00:00", "level": "INFO", "message": "Service 'auth-service' started."}
+{"timestamp": "2026-02-21T05:50:23.538607+00:00", "level": "INFO", "message": "User 'beta' logged in successfully."}
+{"timestamp": "2026-02-21T05:50:24.538607+00:00", "level": "INFO", "message": "Processing batch job #1625."}
+{"timestamp": "2026-02-21T05:50:25.538607+00:00", "level": "INFO", "message": "Maintenance task completed."}
+{"timestamp": "2026-02-21T05:50:26.538607+00:00", "level": "WARN", "message": "Disk space on '/var/log' is running low (92% used)."}
+{"timestamp": "2026-02-21T05:50:27.538607+00:00", "level": "INFO", "message": "Retrying connection to database... (2/3)"}
+{"timestamp": "2026-02-21T05:50:28.538607+00:00", "level": "WARN", "message": "API endpoint /api/v1/users deprecated. Please use /api/v2/users."}
+{"timestamp": "2026-02-21T05:50:29.538607+00:00", "level": "INFO", "message": "Maintenance task completed."}
+{"timestamp": "2026-02-21T05:50:30.538607+00:00", "level": "INFO", "message": "Maintenance task completed."}
+{"timestamp": "2026-02-21T05:50:31.538607+00:00", "level": "INFO", "message": "User 'beta' logged in successfully."}
+{"timestamp": "2026-02-21T05:50:32.538607+00:00", "level": "CRITICAL", "message": "Database connection failed permanently. Service 'data-processor' shutting down."}
+{"timestamp": "2026-02-21T05:50:33.538607+00:00", "level": "INFO", "message": "Service 'notification-service' started."}
+{"timestamp": "2026-02-21T05:50:34.538607+00:00", "level": "INFO", "message": "Service 'auth-service' started."}
+{"timestamp": "2026-02-21T05:50:35.538607+00:00", "level": "INFO", "message": "Service 'notification-service' started."}
+{"timestamp": "2026-02-21T05:50:36.538607+00:00", "level": "INFO", "message": "Processing batch job #1637."}
+{"timestamp": "2026-02-21T05:50:37.538607+00:00", "level": "INFO", "message": "Maintenance task completed."}
+{"timestamp": "2026-02-21T05:50:38.538607+00:00", "level": "ERROR", "message": "Failed to connect to database 'primary_db'. Connection refused."}
+{"timestamp": "2026-02-21T05:50:39.538607+00:00", "level": "WARN", "message": "API endpoint /api/v1/users deprecated. Please use /api/v2/users."}
+{"timestamp": "2026-02-21T05:50:40.538607+00:00", "level": "INFO", "message": "Retrying connection to database... (2/3)"}
+{"timestamp": "2026-02-21T05:50:41.538607+00:00", "level": "INFO", "message": "Service 'auth-service' started."}
+{"timestamp": "2026-02-21T05:50:42.538607+00:00", "level": "INFO", "message": "Retrying connection to database... (1/3)"}
+{"timestamp": "2026-02-21T05:50:43.538607+00:00", "level": "INFO", "message": "Retrying connection to database... (1/3)"}
+{"timestamp": "2026-02-21T05:50:44.538607+00:00", "level": "ERROR", "message": "Failed to connect to database 'primary_db'. Connection refused."}
+{"timestamp": "2026-02-21T05:50:45.538607+00:00", "level": "CRITICAL", "message": "Database connection failed permanently. Service 'data-processor' shutting down."}
+{"timestamp": "2026-02-21T05:50:46.538607+00:00", "level": "INFO", "message": "Service 'notification-service' started."}
+{"timestamp": "2026-02-21T05:50:47.538607+00:00", "level": "INFO", "message": "User 'alpha' logged in successfully."}
+{"timestamp": "2026-02-21T05:50:48.538607+00:00", "level": "ERROR", "message": "Failed to connect to database 'primary_db'. Connection refused."}
+{"timestamp": "2026-02-21T05:50:49.538607+00:00", "level": "DEBUG", "message": "Sent 50 notification emails."}
+{"timestamp": "2026-02-21T05:50:50.538607+00:00", "level": "INFO", "message": "Retrying connection to database... (1/3)"}
+{"timestamp": "2026-02-21T05:50:51.538607+00:00", "level": "INFO", "message": "Starting hourly maintenance task."}
+{"timestamp": "2026-02-21T05:50:52.538607+00:00", "level": "WARN", "message": "Disk space on '/var/log' is running low (92% used)."}
+{"timestamp": "2026-02-21T05:50:53.538607+00:00", "level": "ERROR", "message": "Failed to connect to database 'primary_db'. Connection refused."}
+{"timestamp": "2026-02-21T05:50:54.538607+00:00", "level": "WARN", "message": "API endpoint /api/v1/users deprecated. Please use /api/v2/users."}
+{"timestamp": "2026-02-21T05:50:55.538607+00:00", "level": "INFO", "message": "User 'beta' logged in successfully."}
+{"timestamp": "2026-02-21T05:50:56.538607+00:00", "level": "INFO", "message": "Retrying connection to database... (1/3)"}
+{"timestamp": "2026-02-21T05:50:57.538607+00:00", "level": "INFO", "message": "Starting hourly maintenance task."}
+{"timestamp": "2026-02-21T05:50:58.538607+00:00", "level": "DEBUG", "message": "Data validation passed for job #1659."}
+{"timestamp": "2026-02-21T05:50:59.538607+00:00", "level": "ERROR", "message": "Failed to connect to database 'primary_db'. Connection refused."}
+{"timestamp": "2026-02-21T05:51:00.538607+00:00", "level": "ERROR", "message": "Failed to connect to database 'primary_db'. Connection refused."}
+{"timestamp": "2026-02-21T05:51:01.538607+00:00", "level": "INFO", "message": "Starting hourly maintenance task."}
+{"timestamp": "2026-02-21T05:51:02.538607+00:00", "level": "INFO", "message": "Service 'auth-service' started."}
+{"timestamp": "2026-02-21T05:51:03.538607+00:00", "level": "WARN", "message": "Disk space on '/var/log' is running low (92% used)."}
+{"timestamp": "2026-02-21T05:51:04.538607+00:00", "level": "WARN", "message": "API endpoint /api/v1/users deprecated. Please use /api/v2/users."}
+{"timestamp": "2026-02-21T05:51:05.538607+00:00", "level": "INFO", "message": "Service 'auth-service' started."}
+{"timestamp": "2026-02-21T05:51:06.538607+00:00", "level": "INFO", "message": "User 'beta' logged in successfully."}
+{"timestamp": "2026-02-21T05:51:07.538607+00:00", "level": "DEBUG", "message": "Sent 50 notification emails."}
+{"timestamp": "2026-02-21T05:51:08.538607+00:00", "level": "CRITICAL", "message": "Database connection failed permanently. Service 'data-processor' shutting down."}
+{"timestamp": "2026-02-21T05:51:09.538607+00:00", "level": "ERROR", "message": "Failed to connect to database 'primary_db'. Connection refused."}
+{"timestamp": "2026-02-21T05:51:10.538607+00:00", "level": "CRITICAL", "message": "Database connection failed permanently. Service 'data-processor' shutting down."}
+{"timestamp": "2026-02-21T05:51:11.538607+00:00", "level": "INFO", "message": "Service 'auth-service' started."}
+{"timestamp": "2026-02-21T05:51:12.538607+00:00", "level": "WARN", "message": "Disk space on '/var/log' is running low (92% used)."}
+{"timestamp": "2026-02-21T05:51:13.538607+00:00", "level": "ERROR", "message": "Failed to connect to database 'primary_db'. Connection refused."}
+{"timestamp": "2026-02-21T05:51:14.538607+00:00", "level": "INFO", "message": "Service 'notification-service' started."}
+{"timestamp": "2026-02-21T05:51:15.538607+00:00", "level": "INFO", "message": "Starting hourly maintenance task."}
+{"timestamp": "2026-02-21T05:51:16.538607+00:00", "level": "WARN", "message": "API endpoint /api/v1/users deprecated. Please use /api/v2/users."}
+{"timestamp": "2026-02-21T05:51:17.538607+00:00", "level": "INFO", "message": "Service 'notification-service' started."}
+{"timestamp": "2026-02-21T05:51:18.538607+00:00", "level": "ERROR", "message": "Failed to connect to database 'primary_db'. Connection refused."}
+{"timestamp": "2026-02-21T05:51:19.538607+00:00", "level": "INFO", "message": "Service 'notification-service' started."}
+{"timestamp": "2026-02-21T05:51:20.538607+00:00", "level": "DEBUG", "message": "Sent 50 notification emails."}
+{"timestamp": "2026-02-21T05:51:21.538607+00:00", "level": "INFO", "message": "User 'beta' logged in successfully."}
+{"timestamp": "2026-02-21T05:51:22.538607+00:00", "level": "INFO", "message": "Maintenance task completed."}
+{"timestamp": "2026-02-21T05:51:23.538607+00:00", "level": "INFO", "message": "Maintenance task completed."}
+{"timestamp": "2026-02-21T05:51:24.538607+00:00", "level": "INFO", "message": "Processing batch job #1685."}
+{"timestamp": "2026-02-21T05:51:25.538607+00:00", "level": "DEBUG", "message": "Sent 50 notification emails."}
+{"timestamp": "2026-02-21T05:51:26.538607+00:00", "level": "INFO", "message": "User 'beta' logged in successfully."}
+{"timestamp": "2026-02-21T05:51:27.538607+00:00", "level": "DEBUG", "message": "Sent 50 notification emails."}
+{"timestamp": "2026-02-21T05:51:28.538607+00:00", "level": "WARN", "message": "Disk space on '/var/log' is running low (92% used)."}
+{"timestamp": "2026-02-21T05:51:29.538607+00:00", "level": "WARN", "message": "Disk space on '/var/log' is running low (92% used)."}
+{"timestamp": "2026-02-21T05:51:30.538607+00:00", "level": "INFO", "message": "Processing batch job #1691."}
+{"timestamp": "2026-02-21T05:51:31.538607+00:00", "level": "DEBUG", "message": "Data validation passed for job #1692."}
+{"timestamp": "2026-02-21T05:51:32.538607+00:00", "level": "INFO", "message": "Retrying connection to database... (2/3)"}
+{"timestamp": "2026-02-21T05:51:33.538607+00:00", "level": "DEBUG", "message": "Data validation passed for job #1694."}
+{"timestamp": "2026-02-21T05:51:34.538607+00:00", "level": "INFO", "message": "User 'beta' logged in successfully."}
+{"timestamp": "2026-02-21T05:51:35.538607+00:00", "level": "INFO", "message": "Service 'notification-service' started."}
+{"timestamp": "2026-02-21T05:51:36.538607+00:00", "level": "INFO", "message": "User 'alpha' logged in successfully."}
+{"timestamp": "2026-02-21T05:51:37.538607+00:00", "level": "INFO", "message": "Retrying connection to database... (1/3)"}
+{"timestamp": "2026-02-21T05:51:38.538607+00:00", "level": "CRITICAL", "message": "Database connection failed permanently. Service 'data-processor' shutting down."}
+{"timestamp": "2026-02-21T05:51:39.538607+00:00", "level": "INFO", "message": "Service 'auth-service' started."}
+{"timestamp": "2026-02-21T05:51:40.538607+00:00", "level": "ERROR", "message": "Failed to connect to database 'primary_db'. Connection refused."}
+{"timestamp": "2026-02-21T05:51:41.538607+00:00", "level": "INFO", "message": "Service 'notification-service' started."}
+{"timestamp": "2026-02-21T05:51:42.538607+00:00", "level": "INFO", "message": "Retrying connection to database... (2/3)"}
+{"timestamp": "2026-02-21T05:51:43.538607+00:00", "level": "INFO", "message": "Retrying connection to database... (1/3)"}
+{"timestamp": "2026-02-21T05:51:44.538607+00:00", "level": "INFO", "message": "Retrying connection to database... (2/3)"}
+{"timestamp": "2026-02-21T05:51:45.538607+00:00", "level": "INFO", "message": "Processing batch job #1706."}
+{"timestamp": "2026-02-21T05:51:46.538607+00:00", "level": "ERROR", "message": "Failed to connect to database 'primary_db'. Connection refused."}
+{"timestamp": "2026-02-21T05:51:47.538607+00:00", "level": "INFO", "message": "User 'alpha' logged in successfully."}
+{"timestamp": "2026-02-21T05:51:48.538607+00:00", "level": "INFO", "message": "User 'beta' logged in successfully."}
+{"timestamp": "2026-02-21T05:51:49.538607+00:00", "level": "INFO", "message": "Service 'notification-service' started."}
+{"timestamp": "2026-02-21T05:51:50.538607+00:00", "level": "CRITICAL", "message": "Database connection failed permanently. Service 'data-processor' shutting down."}
+{"timestamp": "2026-02-21T05:51:51.538607+00:00", "level": "ERROR", "message": "Failed to connect to database 'primary_db'. Connection refused."}
+{"timestamp": "2026-02-21T05:51:52.538607+00:00", "level": "INFO", "message": "Maintenance task completed."}
+{"timestamp": "2026-02-21T05:51:53.538607+00:00", "level": "WARN", "message": "API endpoint /api/v1/users deprecated. Please use /api/v2/users."}
+{"timestamp": "2026-02-21T05:51:54.538607+00:00", "level": "INFO", "message": "Service 'auth-service' started."}
+{"timestamp": "2026-02-21T05:51:55.538607+00:00", "level": "INFO", "message": "Maintenance task completed."}
+{"timestamp": "2026-02-21T05:51:56.538607+00:00", "level": "CRITICAL", "message": "Database connection failed permanently. Service 'data-processor' shutting down."}
+{"timestamp": "2026-02-21T05:51:57.538607+00:00", "level": "ERROR", "message": "Failed to connect to database 'primary_db'. Connection refused."}
+{"timestamp": "2026-02-21T05:51:58.538607+00:00", "level": "DEBUG", "message": "Sent 50 notification emails."}
+{"timestamp": "2026-02-21T05:51:59.538607+00:00", "level": "INFO", "message": "Service 'auth-service' started."}
+{"timestamp": "2026-02-21T05:52:00.538607+00:00", "level": "CRITICAL", "message": "Database connection failed permanently. Service 'data-processor' shutting down."}
+{"timestamp": "2026-02-21T05:52:01.538607+00:00", "level": "INFO", "message": "Retrying connection to database... (1/3)"}
+{"timestamp": "2026-02-21T05:52:02.538607+00:00", "level": "ERROR", "message": "Failed to connect to database 'primary_db'. Connection refused."}
+{"timestamp": "2026-02-21T05:52:03.538607+00:00", "level": "INFO", "message": "Maintenance task completed."}
+{"timestamp": "2026-02-21T05:52:04.538607+00:00", "level": "INFO", "message": "Retrying connection to database... (2/3)"}
+{"timestamp": "2026-02-21T05:52:05.538607+00:00", "level": "INFO", "message": "Retrying connection to database... (1/3)"}
+{"timestamp": "2026-02-21T05:52:06.538607+00:00", "level": "INFO", "message": "Starting hourly maintenance task."}
+{"timestamp": "2026-02-21T05:52:07.538607+00:00", "level": "INFO", "message": "Service 'notification-service' started."}
+{"timestamp": "2026-02-21T05:52:08.538607+00:00", "level": "CRITICAL", "message": "Database connection failed permanently. Service 'data-processor' shutting down."}
+{"timestamp": "2026-02-21T05:52:09.538607+00:00", "level": "INFO", "message": "Processing batch job #1730."}
+{"timestamp": "2026-02-21T05:52:10.538607+00:00", "level": "INFO", "message": "Maintenance task completed."}
+{"timestamp": "2026-02-21T05:52:11.538607+00:00", "level": "INFO", "message": "Service 'notification-service' started."}
+{"timestamp": "2026-02-21T05:52:12.538607+00:00", "level": "INFO", "message": "Maintenance task completed."}
+{"timestamp": "2026-02-21T05:52:13.538607+00:00", "level": "INFO", "message": "Starting hourly maintenance task."}
+{"timestamp": "2026-02-21T05:52:14.538607+00:00", "level": "CRITICAL", "message": "Database connection failed permanently. Service 'data-processor' shutting down."}
+{"timestamp": "2026-02-21T05:52:15.538607+00:00", "level": "INFO", "message": "Retrying connection to database... (2/3)"}
+{"timestamp": "2026-02-21T05:52:16.538607+00:00", "level": "INFO", "message": "Service 'notification-service' started."}
+{"timestamp": "2026-02-21T05:52:17.538607+00:00", "level": "WARN", "message": "API endpoint /api/v1/users deprecated. Please use /api/v2/users."}
+{"timestamp": "2026-02-21T05:52:18.538607+00:00", "level": "DEBUG", "message": "Data validation passed for job #1739."}
+{"timestamp": "2026-02-21T05:52:19.538607+00:00", "level": "WARN", "message": "API endpoint /api/v1/users deprecated. Please use /api/v2/users."}
+{"timestamp": "2026-02-21T05:52:20.538607+00:00", "level": "INFO", "message": "Retrying connection to database... (1/3)"}
+{"timestamp": "2026-02-21T05:52:21.538607+00:00", "level": "INFO", "message": "User 'beta' logged in successfully."}
+{"timestamp": "2026-02-21T05:52:22.538607+00:00", "level": "INFO", "message": "Service 'notification-service' started."}
+{"timestamp": "2026-02-21T05:52:23.538607+00:00", "level": "INFO", "message": "Starting hourly maintenance task."}
+{"timestamp": "2026-02-21T05:52:24.538607+00:00", "level": "INFO", "message": "Retrying connection to database... (1/3)"}
+{"timestamp": "2026-02-21T05:52:25.538607+00:00", "level": "INFO", "message": "Processing batch job #1746."}
+{"timestamp": "2026-02-21T05:52:26.538607+00:00", "level": "INFO", "message": "User 'alpha' logged in successfully."}
+{"timestamp": "2026-02-21T05:52:27.538607+00:00", "level": "INFO", "message": "Service 'notification-service' started."}
+{"timestamp": "2026-02-21T05:52:28.538607+00:00", "level": "INFO", "message": "Service 'notification-service' started."}
+{"timestamp": "2026-02-21T05:52:29.538607+00:00", "level": "INFO", "message": "Retrying connection to database... (1/3)"}
+{"timestamp": "2026-02-21T05:52:30.538607+00:00", "level": "DEBUG", "message": "Sent 50 notification emails."}
+{"timestamp": "2026-02-21T05:52:31.538607+00:00", "level": "INFO", "message": "User 'beta' logged in successfully."}
+{"timestamp": "2026-02-21T05:52:32.538607+00:00", "level": "INFO", "message": "Service 'notification-service' started."}
+{"timestamp": "2026-02-21T05:52:33.538607+00:00", "level": "INFO", "message": "Processing batch job #1754."}
+{"timestamp": "2026-02-21T05:52:34.538607+00:00", "level": "INFO", "message": "Maintenance task completed."}
+{"timestamp": "2026-02-21T05:52:35.538607+00:00", "level": "INFO", "message": "Service 'notification-service' started."}
+{"timestamp": "2026-02-21T05:52:36.538607+00:00", "level": "ERROR", "message": "Failed to connect to database 'primary_db'. Connection refused."}
+{"timestamp": "2026-02-21T05:52:37.538607+00:00", "level": "DEBUG", "message": "Data validation passed for job #1758."}
+{"timestamp": "2026-02-21T05:52:38.538607+00:00", "level": "INFO", "message": "Processing batch job #1759."}
+{"timestamp": "2026-02-21T05:52:39.538607+00:00", "level": "INFO", "message": "Service 'notification-service' started."}
+{"timestamp": "2026-02-21T05:52:40.538607+00:00", "level": "INFO", "message": "User 'beta' logged in successfully."}
+{"timestamp": "2026-02-21T05:52:41.538607+00:00", "level": "WARN", "message": "API endpoint /api/v1/users deprecated. Please use /api/v2/users."}
+{"timestamp": "2026-02-21T05:52:42.538607+00:00", "level": "INFO", "message": "Service 'auth-service' started."}
+{"timestamp": "2026-02-21T05:52:43.538607+00:00", "level": "INFO", "message": "Processing batch job #1764."}
+{"timestamp": "2026-02-21T05:52:44.538607+00:00", "level": "ERROR", "message": "Failed to connect to database 'primary_db'. Connection refused."}
+{"timestamp": "2026-02-21T05:52:45.538607+00:00", "level": "CRITICAL", "message": "Database connection failed permanently. Service 'data-processor' shutting down."}
+{"timestamp": "2026-02-21T05:52:46.538607+00:00", "level": "INFO", "message": "User 'alpha' logged in successfully."}
+{"timestamp": "2026-02-21T05:52:47.538607+00:00", "level": "INFO", "message": "Maintenance task completed."}
+{"timestamp": "2026-02-21T05:52:48.538607+00:00", "level": "DEBUG", "message": "Sent 50 notification emails."}
+{"timestamp": "2026-02-21T05:52:49.538607+00:00", "level": "ERROR", "message": "Failed to connect to database 'primary_db'. Connection refused."}
+{"timestamp": "2026-02-21T05:52:50.538607+00:00", "level": "INFO", "message": "Service 'notification-service' started."}
+{"timestamp": "2026-02-21T05:52:51.538607+00:00", "level": "INFO", "message": "Maintenance task completed."}
+{"timestamp": "2026-02-21T05:52:52.538607+00:00", "level": "WARN", "message": "Disk space on '/var/log' is running low (92% used)."}
+{"timestamp": "2026-02-21T05:52:53.538607+00:00", "level": "ERROR", "message": "Failed to connect to database 'primary_db'. Connection refused."}
+{"timestamp": "2026-02-21T05:52:54.538607+00:00", "level": "INFO", "message": "Retrying connection to database... (1/3)"}
+{"timestamp": "2026-02-21T05:52:55.538607+00:00", "level": "INFO", "message": "Maintenance task completed."}
+{"timestamp": "2026-02-21T05:52:56.538607+00:00", "level": "INFO", "message": "Starting hourly maintenance task."}
+{"timestamp": "2026-02-21T05:52:57.538607+00:00", "level": "INFO", "message": "Retrying connection to database... (1/3)"}
+{"timestamp": "2026-02-21T05:52:58.538607+00:00", "level": "WARN", "message": "API endpoint /api/v1/users deprecated. Please use /api/v2/users."}
+{"timestamp": "2026-02-21T05:52:59.538607+00:00", "level": "DEBUG", "message": "Data validation passed for job #1780."}
+{"timestamp": "2026-02-21T05:53:00.538607+00:00", "level": "INFO", "message": "User 'alpha' logged in successfully."}
+{"timestamp": "2026-02-21T05:53:01.538607+00:00", "level": "INFO", "message": "Service 'auth-service' started."}
+{"timestamp": "2026-02-21T05:53:02.538607+00:00", "level": "INFO", "message": "Service 'auth-service' started."}
+{"timestamp": "2026-02-21T05:53:03.538607+00:00", "level": "DEBUG", "message": "Sent 50 notification emails."}
+{"timestamp": "2026-02-21T05:53:04.538607+00:00", "level": "INFO", "message": "Service 'notification-service' started."}
+{"timestamp": "2026-02-21T05:53:05.538607+00:00", "level": "INFO", "message": "Retrying connection to database... (2/3)"}
+{"timestamp": "2026-02-21T05:53:06.538607+00:00", "level": "DEBUG", "message": "Sent 50 notification emails."}
+{"timestamp": "2026-02-21T05:53:07.538607+00:00", "level": "INFO", "message": "User 'alpha' logged in successfully."}
+{"timestamp": "2026-02-21T05:53:08.538607+00:00", "level": "INFO", "message": "Maintenance task completed."}
+{"timestamp": "2026-02-21T05:53:09.538607+00:00", "level": "ERROR", "message": "Failed to connect to database 'primary_db'. Connection refused."}
+{"timestamp": "2026-02-21T05:53:10.538607+00:00", "level": "WARN", "message": "API endpoint /api/v1/users deprecated. Please use /api/v2/users."}
+{"timestamp": "2026-02-21T05:53:11.538607+00:00", "level": "ERROR", "message": "Failed to connect to database 'primary_db'. Connection refused."}
+{"timestamp": "2026-02-21T05:53:12.538607+00:00", "level": "DEBUG", "message": "Sent 50 notification emails."}
+{"timestamp": "2026-02-21T05:53:13.538607+00:00", "level": "ERROR", "message": "Failed to connect to database 'primary_db'. Connection refused."}
+{"timestamp": "2026-02-21T05:53:14.538607+00:00", "level": "INFO", "message": "Service 'notification-service' started."}
+{"timestamp": "2026-02-21T05:53:15.538607+00:00", "level": "INFO", "message": "User 'beta' logged in successfully."}
+{"timestamp": "2026-02-21T05:53:16.538607+00:00", "level": "WARN", "message": "API endpoint /api/v1/users deprecated. Please use /api/v2/users."}
+{"timestamp": "2026-02-21T05:53:17.538607+00:00", "level": "INFO", "message": "Service 'notification-service' started."}
+{"timestamp": "2026-02-21T05:53:18.538607+00:00", "level": "INFO", "message": "Maintenance task completed."}
+{"timestamp": "2026-02-21T05:53:19.538607+00:00", "level": "INFO", "message": "User 'beta' logged in successfully."}
+{"timestamp": "2026-02-21T05:53:20.538607+00:00", "level": "CRITICAL", "message": "Database connection failed permanently. Service 'data-processor' shutting down."}
+{"timestamp": "2026-02-21T05:53:21.538607+00:00", "level": "INFO", "message": "Maintenance task completed."}
+{"timestamp": "2026-02-21T05:53:22.538607+00:00", "level": "ERROR", "message": "Failed to connect to database 'primary_db'. Connection refused."}
+{"timestamp": "2026-02-21T05:53:23.538607+00:00", "level": "ERROR", "message": "Failed to connect to database 'primary_db'. Connection refused."}
+{"timestamp": "2026-02-21T05:53:24.538607+00:00", "level": "INFO", "message": "Service 'auth-service' started."}
+{"timestamp": "2026-02-21T05:53:25.538607+00:00", "level": "INFO", "message": "User 'alpha' logged in successfully."}
+{"timestamp": "2026-02-21T05:53:26.538607+00:00", "level": "INFO", "message": "Retrying connection to database... (1/3)"}
+{"timestamp": "2026-02-21T05:53:27.538607+00:00", "level": "DEBUG", "message": "Sent 50 notification emails."}
+{"timestamp": "2026-02-21T05:53:28.538607+00:00", "level": "INFO", "message": "Service 'auth-service' started."}
+{"timestamp": "2026-02-21T05:53:29.538607+00:00", "level": "INFO", "message": "Retrying connection to database... (2/3)"}
+{"timestamp": "2026-02-21T05:53:30.538607+00:00", "level": "DEBUG", "message": "Data validation passed for job #1811."}
+{"timestamp": "2026-02-21T05:53:31.538607+00:00", "level": "CRITICAL", "message": "Database connection failed permanently. Service 'data-processor' shutting down."}
+{"timestamp": "2026-02-21T05:53:32.538607+00:00", "level": "INFO", "message": "User 'alpha' logged in successfully."}
+{"timestamp": "2026-02-21T05:53:33.538607+00:00", "level": "INFO", "message": "Retrying connection to database... (1/3)"}
+{"timestamp": "2026-02-21T05:53:34.538607+00:00", "level": "INFO", "message": "Retrying connection to database... (1/3)"}
+{"timestamp": "2026-02-21T05:53:35.538607+00:00", "level": "INFO", "message": "Service 'auth-service' started."}
+{"timestamp": "2026-02-21T05:53:36.538607+00:00", "level": "INFO", "message": "Processing batch job #1817."}
+{"timestamp": "2026-02-21T05:53:37.538607+00:00", "level": "DEBUG", "message": "Data validation passed for job #1818."}
+{"timestamp": "2026-02-21T05:53:38.538607+00:00", "level": "INFO", "message": "Starting hourly maintenance task."}
+{"timestamp": "2026-02-21T05:53:39.538607+00:00", "level": "INFO", "message": "Starting hourly maintenance task."}
+{"timestamp": "2026-02-21T05:53:40.538607+00:00", "level": "INFO", "message": "Retrying connection to database... (1/3)"}
+{"timestamp": "2026-02-21T05:53:41.538607+00:00", "level": "INFO", "message": "User 'alpha' logged in successfully."}
+{"timestamp": "2026-02-21T05:53:42.538607+00:00", "level": "INFO", "message": "Service 'auth-service' started."}
+{"timestamp": "2026-02-21T05:53:43.538607+00:00", "level": "INFO", "message": "Service 'notification-service' started."}
+{"timestamp": "2026-02-21T05:53:44.538607+00:00", "level": "ERROR", "message": "Failed to connect to database 'primary_db'. Connection refused."}
+{"timestamp": "2026-02-21T05:53:45.538607+00:00", "level": "INFO", "message": "Service 'notification-service' started."}
+{"timestamp": "2026-02-21T05:53:46.538607+00:00", "level": "CRITICAL", "message": "Database connection failed permanently. Service 'data-processor' shutting down."}
+{"timestamp": "2026-02-21T05:53:47.538607+00:00", "level": "INFO", "message": "Service 'auth-service' started."}
+{"timestamp": "2026-02-21T05:53:48.538607+00:00", "level": "WARN", "message": "API endpoint /api/v1/users deprecated. Please use /api/v2/users."}
+{"timestamp": "2026-02-21T05:53:49.538607+00:00", "level": "WARN", "message": "API endpoint /api/v1/users deprecated. Please use /api/v2/users."}
+{"timestamp": "2026-02-21T05:53:50.538607+00:00", "level": "WARN", "message": "Disk space on '/var/log' is running low (92% used)."}
+{"timestamp": "2026-02-21T05:53:51.538607+00:00", "level": "INFO", "message": "Service 'notification-service' started."}
+{"timestamp": "2026-02-21T05:53:52.538607+00:00", "level": "INFO", "message": "User 'alpha' logged in successfully."}
+{"timestamp": "2026-02-21T05:53:53.538607+00:00", "level": "WARN", "message": "Disk space on '/var/log' is running low (92% used)."}
+{"timestamp": "2026-02-21T05:53:54.538607+00:00", "level": "DEBUG", "message": "Data validation passed for job #1835."}
+{"timestamp": "2026-02-21T05:53:55.538607+00:00", "level": "DEBUG", "message": "Sent 50 notification emails."}
+{"timestamp": "2026-02-21T05:53:56.538607+00:00", "level": "WARN", "message": "Disk space on '/var/log' is running low (92% used)."}
+{"timestamp": "2026-02-21T05:53:57.538607+00:00", "level": "INFO", "message": "Retrying connection to database... (1/3)"}
+{"timestamp": "2026-02-21T05:53:58.538607+00:00", "level": "INFO", "message": "Starting hourly maintenance task."}
+{"timestamp": "2026-02-21T05:53:59.538607+00:00", "level": "INFO", "message": "Retrying connection to database... (1/3)"}
+{"timestamp": "2026-02-21T05:54:00.538607+00:00", "level": "INFO", "message": "Processing batch job #1841."}
+{"timestamp": "2026-02-21T05:54:01.538607+00:00", "level": "INFO", "message": "Starting hourly maintenance task."}
+{"timestamp": "2026-02-21T05:54:02.538607+00:00", "level": "CRITICAL", "message": "Database connection failed permanently. Service 'data-processor' shutting down."}
+{"timestamp": "2026-02-21T05:54:03.538607+00:00", "level": "WARN", "message": "Disk space on '/var/log' is running low (92% used)."}
+{"timestamp": "2026-02-21T05:54:04.538607+00:00", "level": "WARN", "message": "API endpoint /api/v1/users deprecated. Please use /api/v2/users."}
+{"timestamp": "2026-02-21T05:54:05.538607+00:00", "level": "INFO", "message": "User 'alpha' logged in successfully."}
+{"timestamp": "2026-02-21T05:54:06.538607+00:00", "level": "INFO", "message": "User 'alpha' logged in successfully."}
+{"timestamp": "2026-02-21T05:54:07.538607+00:00", "level": "INFO", "message": "Service 'notification-service' started."}
+{"timestamp": "2026-02-21T05:54:08.538607+00:00", "level": "ERROR", "message": "Failed to connect to database 'primary_db'. Connection refused."}
+{"timestamp": "2026-02-21T05:54:09.538607+00:00", "level": "WARN", "message": "Disk space on '/var/log' is running low (92% used)."}
+{"timestamp": "2026-02-21T05:54:10.538607+00:00", "level": "CRITICAL", "message": "Database connection failed permanently. Service 'data-processor' shutting down."}
+{"timestamp": "2026-02-21T05:54:11.538607+00:00", "level": "ERROR", "message": "Failed to connect to database 'primary_db'. Connection refused."}
+{"timestamp": "2026-02-21T05:54:12.538607+00:00", "level": "INFO", "message": "Retrying connection to database... (1/3)"}
+{"timestamp": "2026-02-21T05:54:13.538607+00:00", "level": "INFO", "message": "User 'beta' logged in successfully."}
+{"timestamp": "2026-02-21T05:54:14.538607+00:00", "level": "INFO", "message": "Processing batch job #1855."}
+{"timestamp": "2026-02-21T05:54:15.538607+00:00", "level": "WARN", "message": "Disk space on '/var/log' is running low (92% used)."}
+{"timestamp": "2026-02-21T05:54:16.538607+00:00", "level": "INFO", "message": "Maintenance task completed."}
+{"timestamp": "2026-02-21T05:54:17.538607+00:00", "level": "INFO", "message": "Service 'auth-service' started."}
+{"timestamp": "2026-02-21T05:54:18.538607+00:00", "level": "INFO", "message": "Starting hourly maintenance task."}
+{"timestamp": "2026-02-21T05:54:19.538607+00:00", "level": "CRITICAL", "message": "Database connection failed permanently. Service 'data-processor' shutting down."}
+{"timestamp": "2026-02-21T05:54:20.538607+00:00", "level": "INFO", "message": "User 'alpha' logged in successfully."}
+{"timestamp": "2026-02-21T05:54:21.538607+00:00", "level": "DEBUG", "message": "Sent 50 notification emails."}
+{"timestamp": "2026-02-21T05:54:22.538607+00:00", "level": "WARN", "message": "Disk space on '/var/log' is running low (92% used)."}
+{"timestamp": "2026-02-21T05:54:23.538607+00:00", "level": "INFO", "message": "Service 'auth-service' started."}
+{"timestamp": "2026-02-21T05:54:24.538607+00:00", "level": "INFO", "message": "User 'alpha' logged in successfully."}
+{"timestamp": "2026-02-21T05:54:25.538607+00:00", "level": "ERROR", "message": "Failed to connect to database 'primary_db'. Connection refused."}
+{"timestamp": "2026-02-21T05:54:26.538607+00:00", "level": "INFO", "message": "Processing batch job #1867."}
+{"timestamp": "2026-02-21T05:54:27.538607+00:00", "level": "INFO", "message": "Maintenance task completed."}
+{"timestamp": "2026-02-21T05:54:28.538607+00:00", "level": "DEBUG", "message": "Sent 50 notification emails."}
+{"timestamp": "2026-02-21T05:54:29.538607+00:00", "level": "INFO", "message": "Processing batch job #1870."}
+{"timestamp": "2026-02-21T05:54:30.538607+00:00", "level": "INFO", "message": "Maintenance task completed."}
+{"timestamp": "2026-02-21T05:54:31.538607+00:00", "level": "INFO", "message": "User 'beta' logged in successfully."}
+{"timestamp": "2026-02-21T05:54:32.538607+00:00", "level": "DEBUG", "message": "Sent 50 notification emails."}
+{"timestamp": "2026-02-21T05:54:33.538607+00:00", "level": "INFO", "message": "Starting hourly maintenance task."}
+{"timestamp": "2026-02-21T05:54:34.538607+00:00", "level": "DEBUG", "message": "Data validation passed for job #1875."}
+{"timestamp": "2026-02-21T05:54:35.538607+00:00", "level": "INFO", "message": "User 'alpha' logged in successfully."}
+{"timestamp": "2026-02-21T05:54:36.538607+00:00", "level": "WARN", "message": "Disk space on '/var/log' is running low (92% used)."}
+{"timestamp": "2026-02-21T05:54:37.538607+00:00", "level": "DEBUG", "message": "Sent 50 notification emails."}
+{"timestamp": "2026-02-21T05:54:38.538607+00:00", "level": "DEBUG", "message": "Data validation passed for job #1879."}
+{"timestamp": "2026-02-21T05:54:39.538607+00:00", "level": "DEBUG", "message": "Sent 50 notification emails."}
+{"timestamp": "2026-02-21T05:54:40.538607+00:00", "level": "INFO", "message": "Maintenance task completed."}
+{"timestamp": "2026-02-21T05:54:41.538607+00:00", "level": "DEBUG", "message": "Data validation passed for job #1882."}
+{"timestamp": "2026-02-21T05:54:42.538607+00:00", "level": "INFO", "message": "User 'beta' logged in successfully."}
+{"timestamp": "2026-02-21T05:54:43.538607+00:00", "level": "INFO", "message": "User 'beta' logged in successfully."}
+{"timestamp": "2026-02-21T05:54:44.538607+00:00", "level": "WARN", "message": "API endpoint /api/v1/users deprecated. Please use /api/v2/users."}
+{"timestamp": "2026-02-21T05:54:45.538607+00:00", "level": "WARN", "message": "API endpoint /api/v1/users deprecated. Please use /api/v2/users."}
+{"timestamp": "2026-02-21T05:54:46.538607+00:00", "level": "DEBUG", "message": "Data validation passed for job #1887."}
+{"timestamp": "2026-02-21T05:54:47.538607+00:00", "level": "WARN", "message": "Disk space on '/var/log' is running low (92% used)."}
+{"timestamp": "2026-02-21T05:54:48.538607+00:00", "level": "DEBUG", "message": "Data validation passed for job #1889."}
+{"timestamp": "2026-02-21T05:54:49.538607+00:00", "level": "CRITICAL", "message": "Database connection failed permanently. Service 'data-processor' shutting down."}
+{"timestamp": "2026-02-21T05:54:50.538607+00:00", "level": "INFO", "message": "Service 'auth-service' started."}
+{"timestamp": "2026-02-21T05:54:51.538607+00:00", "level": "INFO", "message": "Retrying connection to database... (2/3)"}
+{"timestamp": "2026-02-21T05:54:52.538607+00:00", "level": "WARN", "message": "Disk space on '/var/log' is running low (92% used)."}
+{"timestamp": "2026-02-21T05:54:53.538607+00:00", "level": "WARN", "message": "Disk space on '/var/log' is running low (92% used)."}
+{"timestamp": "2026-02-21T05:54:54.538607+00:00", "level": "INFO", "message": "Service 'auth-service' started."}
+{"timestamp": "2026-02-21T05:54:55.538607+00:00", "level": "INFO", "message": "Processing batch job #1896."}
+{"timestamp": "2026-02-21T05:54:56.538607+00:00", "level": "INFO", "message": "Processing batch job #1897."}
+{"timestamp": "2026-02-21T05:54:57.538607+00:00", "level": "INFO", "message": "Retrying connection to database... (1/3)"}
+{"timestamp": "2026-02-21T05:54:58.538607+00:00", "level": "INFO", "message": "Maintenance task completed."}
+{"timestamp": "2026-02-21T05:54:59.538607+00:00", "level": "ERROR", "message": "Failed to connect to database 'primary_db'. Connection refused."}
+{"timestamp": "2026-02-21T05:55:00.538607+00:00", "level": "INFO", "message": "Retrying connection to database... (2/3)"}
+{"timestamp": "2026-02-21T05:55:01.538607+00:00", "level": "INFO", "message": "Retrying connection to database... (2/3)"}
+{"timestamp": "2026-02-21T05:55:02.538607+00:00", "level": "INFO", "message": "Service 'auth-service' started."}
+{"timestamp": "2026-02-21T05:55:03.538607+00:00", "level": "DEBUG", "message": "Sent 50 notification emails."}
+{"timestamp": "2026-02-21T05:55:04.538607+00:00", "level": "WARN", "message": "API endpoint /api/v1/users deprecated. Please use /api/v2/users."}
+{"timestamp": "2026-02-21T05:55:05.538607+00:00", "level": "INFO", "message": "Retrying connection to database... (2/3)"}
+{"timestamp": "2026-02-21T05:55:06.538607+00:00", "level": "INFO", "message": "Retrying connection to database... (2/3)"}
+{"timestamp": "2026-02-21T05:55:07.538607+00:00", "level": "WARN", "message": "Disk space on '/var/log' is running low (92% used)."}
+{"timestamp": "2026-02-21T05:55:08.538607+00:00", "level": "INFO", "message": "User 'alpha' logged in successfully."}
+{"timestamp": "2026-02-21T05:55:09.538607+00:00", "level": "WARN", "message": "Disk space on '/var/log' is running low (92% used)."}
+{"timestamp": "2026-02-21T05:55:10.538607+00:00", "level": "CRITICAL", "message": "Database connection failed permanently. Service 'data-processor' shutting down."}
+{"timestamp": "2026-02-21T05:55:11.538607+00:00", "level": "INFO", "message": "Maintenance task completed."}
+{"timestamp": "2026-02-21T05:55:12.538607+00:00", "level": "ERROR", "message": "Failed to connect to database 'primary_db'. Connection refused."}
+{"timestamp": "2026-02-21T05:55:13.538607+00:00", "level": "INFO", "message": "Processing batch job #1914."}
+{"timestamp": "2026-02-21T05:55:14.538607+00:00", "level": "INFO", "message": "Retrying connection to database... (2/3)"}
+{"timestamp": "2026-02-21T05:55:15.538607+00:00", "level": "INFO", "message": "Retrying connection to database... (2/3)"}
+{"timestamp": "2026-02-21T05:55:16.538607+00:00", "level": "ERROR", "message": "Failed to connect to database 'primary_db'. Connection refused."}
+{"timestamp": "2026-02-21T05:55:17.538607+00:00", "level": "INFO", "message": "User 'beta' logged in successfully."}
+{"timestamp": "2026-02-21T05:55:18.538607+00:00", "level": "INFO", "message": "Processing batch job #1919."}
+{"timestamp": "2026-02-21T05:55:19.538607+00:00", "level": "ERROR", "message": "Failed to connect to database 'primary_db'. Connection refused."}
+{"timestamp": "2026-02-21T05:55:20.538607+00:00", "level": "INFO", "message": "Retrying connection to database... (2/3)"}
+{"timestamp": "2026-02-21T05:55:21.538607+00:00", "level": "CRITICAL", "message": "Database connection failed permanently. Service 'data-processor' shutting down."}
+{"timestamp": "2026-02-21T05:55:22.538607+00:00", "level": "WARN", "message": "Disk space on '/var/log' is running low (92% used)."}
+{"timestamp": "2026-02-21T05:55:23.538607+00:00", "level": "INFO", "message": "Service 'notification-service' started."}
+{"timestamp": "2026-02-21T05:55:24.538607+00:00", "level": "DEBUG", "message": "Sent 50 notification emails."}
+{"timestamp": "2026-02-21T05:55:25.538607+00:00", "level": "INFO", "message": "Maintenance task completed."}
+{"timestamp": "2026-02-21T05:55:26.538607+00:00", "level": "ERROR", "message": "Failed to connect to database 'primary_db'. Connection refused."}
+{"timestamp": "2026-02-21T05:55:27.538607+00:00", "level": "INFO", "message": "Retrying connection to database... (1/3)"}
+{"timestamp": "2026-02-21T05:55:28.538607+00:00", "level": "CRITICAL", "message": "Database connection failed permanently. Service 'data-processor' shutting down."}
+{"timestamp": "2026-02-21T05:55:29.538607+00:00", "level": "INFO", "message": "Service 'auth-service' started."}
+{"timestamp": "2026-02-21T05:55:30.538607+00:00", "level": "WARN", "message": "Disk space on '/var/log' is running low (92% used)."}
+{"timestamp": "2026-02-21T05:55:31.538607+00:00", "level": "INFO", "message": "User 'beta' logged in successfully."}
+{"timestamp": "2026-02-21T05:55:32.538607+00:00", "level": "INFO", "message": "Service 'auth-service' started."}
+{"timestamp": "2026-02-21T05:55:33.538607+00:00", "level": "INFO", "message": "Maintenance task completed."}
+{"timestamp": "2026-02-21T05:55:34.538607+00:00", "level": "WARN", "message": "Disk space on '/var/log' is running low (92% used)."}
+{"timestamp": "2026-02-21T05:55:35.538607+00:00", "level": "INFO", "message": "User 'beta' logged in successfully."}
+{"timestamp": "2026-02-21T05:55:36.538607+00:00", "level": "CRITICAL", "message": "Database connection failed permanently. Service 'data-processor' shutting down."}
+{"timestamp": "2026-02-21T05:55:37.538607+00:00", "level": "DEBUG", "message": "Sent 50 notification emails."}
+{"timestamp": "2026-02-21T05:55:38.538607+00:00", "level": "DEBUG", "message": "Sent 50 notification emails."}
+{"timestamp": "2026-02-21T05:55:39.538607+00:00", "level": "INFO", "message": "Retrying connection to database... (2/3)"}
+{"timestamp": "2026-02-21T05:55:40.538607+00:00", "level": "INFO", "message": "User 'beta' logged in successfully."}
+{"timestamp": "2026-02-21T05:55:41.538607+00:00", "level": "INFO", "message": "Service 'auth-service' started."}
+{"timestamp": "2026-02-21T05:55:42.538607+00:00", "level": "INFO", "message": "User 'alpha' logged in successfully."}
+{"timestamp": "2026-02-21T05:55:43.538607+00:00", "level": "DEBUG", "message": "Data validation passed for job #1944."}
+{"timestamp": "2026-02-21T05:55:44.538607+00:00", "level": "WARN", "message": "Disk space on '/var/log' is running low (92% used)."}
+{"timestamp": "2026-02-21T05:55:45.538607+00:00", "level": "DEBUG", "message": "Data validation passed for job #1946."}
+{"timestamp": "2026-02-21T05:55:46.538607+00:00", "level": "INFO", "message": "Maintenance task completed."}
+{"timestamp": "2026-02-21T05:55:47.538607+00:00", "level": "WARN", "message": "API endpoint /api/v1/users deprecated. Please use /api/v2/users."}
+{"timestamp": "2026-02-21T05:55:48.538607+00:00", "level": "INFO", "message": "Maintenance task completed."}
+{"timestamp": "2026-02-21T05:55:49.538607+00:00", "level": "INFO", "message": "Service 'auth-service' started."}
+{"timestamp": "2026-02-21T05:55:50.538607+00:00", "level": "INFO", "message": "Retrying connection to database... (2/3)"}
+{"timestamp": "2026-02-21T05:55:51.538607+00:00", "level": "INFO", "message": "Processing batch job #1952."}
+{"timestamp": "2026-02-21T05:55:52.538607+00:00", "level": "ERROR", "message": "Failed to connect to database 'primary_db'. Connection refused."}
+{"timestamp": "2026-02-21T05:55:53.538607+00:00", "level": "INFO", "message": "Retrying connection to database... (2/3)"}
+{"timestamp": "2026-02-21T05:55:54.538607+00:00", "level": "INFO", "message": "Retrying connection to database... (1/3)"}
+{"timestamp": "2026-02-21T05:55:55.538607+00:00", "level": "INFO", "message": "Service 'auth-service' started."}
+{"timestamp": "2026-02-21T05:55:56.538607+00:00", "level": "INFO", "message": "Starting hourly maintenance task."}
+{"timestamp": "2026-02-21T05:55:57.538607+00:00", "level": "INFO", "message": "Retrying connection to database... (1/3)"}
+{"timestamp": "2026-02-21T05:55:58.538607+00:00", "level": "INFO", "message": "Processing batch job #1959."}
+{"timestamp": "2026-02-21T05:55:59.538607+00:00", "level": "WARN", "message": "API endpoint /api/v1/users deprecated. Please use /api/v2/users."}
+{"timestamp": "2026-02-21T05:56:00.538607+00:00", "level": "INFO", "message": "Retrying connection to database... (2/3)"}
+{"timestamp": "2026-02-21T05:56:01.538607+00:00", "level": "INFO", "message": "Service 'auth-service' started."}
+{"timestamp": "2026-02-21T05:56:02.538607+00:00", "level": "INFO", "message": "Maintenance task completed."}
+{"timestamp": "2026-02-21T05:56:03.538607+00:00", "level": "INFO", "message": "User 'beta' logged in successfully."}
+{"timestamp": "2026-02-21T05:56:04.538607+00:00", "level": "WARN", "message": "API endpoint /api/v1/users deprecated. Please use /api/v2/users."}
+{"timestamp": "2026-02-21T05:56:05.538607+00:00", "level": "INFO", "message": "User 'beta' logged in successfully."}
+{"timestamp": "2026-02-21T05:56:06.538607+00:00", "level": "ERROR", "message": "Failed to connect to database 'primary_db'. Connection refused."}
+{"timestamp": "2026-02-21T05:56:07.538607+00:00", "level": "ERROR", "message": "Failed to connect to database 'primary_db'. Connection refused."}
+{"timestamp": "2026-02-21T05:56:08.538607+00:00", "level": "ERROR", "message": "Failed to connect to database 'primary_db'. Connection refused."}
+{"timestamp": "2026-02-21T05:56:09.538607+00:00", "level": "INFO", "message": "User 'alpha' logged in successfully."}
+{"timestamp": "2026-02-21T05:56:10.538607+00:00", "level": "ERROR", "message": "Failed to connect to database 'primary_db'. Connection refused."}
+{"timestamp": "2026-02-21T05:56:11.538607+00:00", "level": "INFO", "message": "Starting hourly maintenance task."}
+{"timestamp": "2026-02-21T05:56:12.538607+00:00", "level": "INFO", "message": "Retrying connection to database... (2/3)"}
+{"timestamp": "2026-02-21T05:56:13.538607+00:00", "level": "INFO", "message": "Service 'auth-service' started."}
+{"timestamp": "2026-02-21T05:56:14.538607+00:00", "level": "CRITICAL", "message": "Database connection failed permanently. Service 'data-processor' shutting down."}
+{"timestamp": "2026-02-21T05:56:15.538607+00:00", "level": "INFO", "message": "Starting hourly maintenance task."}
+{"timestamp": "2026-02-21T05:56:16.538607+00:00", "level": "INFO", "message": "Service 'auth-service' started."}
+{"timestamp": "2026-02-21T05:56:17.538607+00:00", "level": "INFO", "message": "Service 'auth-service' started."}
+{"timestamp": "2026-02-21T05:56:18.538607+00:00", "level": "INFO", "message": "Starting hourly maintenance task."}
+{"timestamp": "2026-02-21T05:56:19.538607+00:00", "level": "ERROR", "message": "Failed to connect to database 'primary_db'. Connection refused."}
+{"timestamp": "2026-02-21T05:56:20.538607+00:00", "level": "INFO", "message": "Starting hourly maintenance task."}
+{"timestamp": "2026-02-21T05:56:21.538607+00:00", "level": "INFO", "message": "User 'beta' logged in successfully."}
+{"timestamp": "2026-02-21T05:56:22.538607+00:00", "level": "INFO", "message": "Retrying connection to database... (1/3)"}
+{"timestamp": "2026-02-21T05:56:23.538607+00:00", "level": "DEBUG", "message": "Data validation passed for job #1984."}
+{"timestamp": "2026-02-21T05:56:24.538607+00:00", "level": "INFO", "message": "Starting hourly maintenance task."}
+{"timestamp": "2026-02-21T05:56:25.538607+00:00", "level": "ERROR", "message": "Failed to connect to database 'primary_db'. Connection refused."}
+{"timestamp": "2026-02-21T05:56:26.538607+00:00", "level": "WARN", "message": "Disk space on '/var/log' is running low (92% used)."}
+{"timestamp": "2026-02-21T05:56:27.538607+00:00", "level": "CRITICAL", "message": "Database connection failed permanently. Service 'data-processor' shutting down."}
+{"timestamp": "2026-02-21T05:56:28.538607+00:00", "level": "INFO", "message": "Service 'auth-service' started."}
+{"timestamp": "2026-02-21T05:56:29.538607+00:00", "level": "INFO", "message": "Retrying connection to database... (2/3)"}
+{"timestamp": "2026-02-21T05:56:30.538607+00:00", "level": "INFO", "message": "Retrying connection to database... (2/3)"}
+{"timestamp": "2026-02-21T05:56:31.538607+00:00", "level": "INFO", "message": "Retrying connection to database... (2/3)"}
+{"timestamp": "2026-02-21T05:56:32.538607+00:00", "level": "INFO", "message": "Retrying connection to database... (2/3)"}
+{"timestamp": "2026-02-21T05:56:33.538607+00:00", "level": "ERROR", "message": "Failed to connect to database 'primary_db'. Connection refused."}
+{"timestamp": "2026-02-21T05:56:34.538607+00:00", "level": "INFO", "message": "Retrying connection to database... (2/3)"}
+{"timestamp": "2026-02-21T05:56:35.538607+00:00", "level": "INFO", "message": "Service 'notification-service' started."}
+{"timestamp": "2026-02-21T05:56:36.538607+00:00", "level": "INFO", "message": "Maintenance task completed."}
+{"timestamp": "2026-02-21T05:56:37.538607+00:00", "level": "INFO", "message": "User 'beta' logged in successfully."}
+{"timestamp": "2026-02-21T05:56:38.538607+00:00", "level": "INFO", "message": "Processing batch job #1999."}
+{"timestamp": "2026-02-21T05:56:39.538607+00:00", "level": "WARN", "message": "Disk space on '/var/log' is running low (92% used)."}
+{"timestamp": "2026-02-21T05:56:40.538607+00:00", "level": "INFO", "message": "Retrying connection to database... (2/3)"}
+{"timestamp": "2026-02-21T05:56:41.538607+00:00", "level": "INFO", "message": "Service 'auth-service' started."}
+{"timestamp": "2026-02-21T05:56:42.538607+00:00", "level": "WARN", "message": "API endpoint /api/v1/users deprecated. Please use /api/v2/users."}
+{"timestamp": "2026-02-21T05:56:43.538607+00:00", "level": "INFO", "message": "Service 'notification-service' started."}
+{"timestamp": "2026-02-21T05:56:44.538607+00:00", "level": "DEBUG", "message": "Sent 50 notification emails."}
+{"timestamp": "2026-02-21T05:56:45.538607+00:00", "level": "INFO", "message": "Service 'auth-service' started."}
+{"timestamp": "2026-02-21T05:56:46.538607+00:00", "level": "DEBUG", "message": "Sent 50 notification emails."}
+{"timestamp": "2026-02-21T05:56:47.538607+00:00", "level": "INFO", "message": "Service 'auth-service' started."}
+{"timestamp": "2026-02-21T05:56:48.538607+00:00", "level": "INFO", "message": "Maintenance task completed."}
+{"timestamp": "2026-02-21T05:56:49.538607+00:00", "level": "DEBUG", "message": "Sent 50 notification emails."}
+{"timestamp": "2026-02-21T05:56:50.538607+00:00", "level": "CRITICAL", "message": "Database connection failed permanently. Service 'data-processor' shutting down."}
+{"timestamp": "2026-02-21T05:56:51.538607+00:00", "level": "INFO", "message": "Service 'notification-service' started."}
+{"timestamp": "2026-02-21T05:56:52.538607+00:00", "level": "CRITICAL", "message": "Database connection failed permanently. Service 'data-processor' shutting down."}
+{"timestamp": "2026-02-21T05:56:53.538607+00:00", "level": "INFO", "message": "Maintenance task completed."}
+{"timestamp": "2026-02-21T05:56:54.538607+00:00", "level": "INFO", "message": "Service 'auth-service' started."}
+{"timestamp": "2026-02-21T05:56:55.538607+00:00", "level": "WARN", "message": "API endpoint /api/v1/users deprecated. Please use /api/v2/users."}
+{"timestamp": "2026-02-21T05:56:56.538607+00:00", "level": "INFO", "message": "Processing batch job #2017."}
+{"timestamp": "2026-02-21T05:56:57.538607+00:00", "level": "DEBUG", "message": "Data validation passed for job #2018."}
+{"timestamp": "2026-02-21T05:56:58.538607+00:00", "level": "DEBUG", "message": "Data validation passed for job #2019."}
+{"timestamp": "2026-02-21T05:56:59.538607+00:00", "level": "INFO", "message": "Processing batch job #2020."}
+{"timestamp": "2026-02-21T05:57:00.538607+00:00", "level": "INFO", "message": "Retrying connection to database... (1/3)"}
+{"timestamp": "2026-02-21T05:57:01.538607+00:00", "level": "DEBUG", "message": "Data validation passed for job #2022."}
+{"timestamp": "2026-02-21T05:57:02.538607+00:00", "level": "INFO", "message": "Service 'auth-service' started."}
+{"timestamp": "2026-02-21T05:57:03.538607+00:00", "level": "WARN", "message": "API endpoint /api/v1/users deprecated. Please use /api/v2/users."}
+{"timestamp": "2026-02-21T05:57:04.538607+00:00", "level": "ERROR", "message": "Failed to connect to database 'primary_db'. Connection refused."}
+{"timestamp": "2026-02-21T05:57:05.538607+00:00", "level": "CRITICAL", "message": "Database connection failed permanently. Service 'data-processor' shutting down."}
+{"timestamp": "2026-02-21T05:57:06.538607+00:00", "level": "INFO", "message": "Maintenance task completed."}
+{"timestamp": "2026-02-21T05:57:07.538607+00:00", "level": "INFO", "message": "Retrying connection to database... (1/3)"}
+{"timestamp": "2026-02-21T05:57:08.538607+00:00", "level": "ERROR", "message": "Failed to connect to database 'primary_db'. Connection refused."}
+{"timestamp": "2026-02-21T05:57:09.538607+00:00", "level": "INFO", "message": "User 'alpha' logged in successfully."}
+{"timestamp": "2026-02-21T05:57:10.538607+00:00", "level": "DEBUG", "message": "Data validation passed for job #2031."}
+{"timestamp": "2026-02-21T05:57:11.538607+00:00", "level": "INFO", "message": "Starting hourly maintenance task."}
+{"timestamp": "2026-02-21T05:57:12.538607+00:00", "level": "ERROR", "message": "Failed to connect to database 'primary_db'. Connection refused."}
+{"timestamp": "2026-02-21T05:57:13.538607+00:00", "level": "INFO", "message": "Retrying connection to database... (2/3)"}
+{"timestamp": "2026-02-21T05:57:14.538607+00:00", "level": "INFO", "message": "Maintenance task completed."}
+{"timestamp": "2026-02-21T05:57:15.538607+00:00", "level": "INFO", "message": "Service 'notification-service' started."}
+{"timestamp": "2026-02-21T05:57:16.538607+00:00", "level": "INFO", "message": "Retrying connection to database... (2/3)"}
+{"timestamp": "2026-02-21T05:57:17.538607+00:00", "level": "INFO", "message": "Starting hourly maintenance task."}
+{"timestamp": "2026-02-21T05:57:18.538607+00:00", "level": "INFO", "message": "Starting hourly maintenance task."}
+{"timestamp": "2026-02-21T05:57:19.538607+00:00", "level": "WARN", "message": "API endpoint /api/v1/users deprecated. Please use /api/v2/users."}
+{"timestamp": "2026-02-21T05:57:20.538607+00:00", "level": "INFO", "message": "Service 'auth-service' started."}
+{"timestamp": "2026-02-21T05:57:21.538607+00:00", "level": "INFO", "message": "Maintenance task completed."}
+{"timestamp": "2026-02-21T05:57:22.538607+00:00", "level": "INFO", "message": "Starting hourly maintenance task."}
+{"timestamp": "2026-02-21T05:57:23.538607+00:00", "level": "INFO", "message": "Processing batch job #2044."}
+{"timestamp": "2026-02-21T05:57:24.538607+00:00", "level": "INFO", "message": "User 'beta' logged in successfully."}
+{"timestamp": "2026-02-21T05:57:25.538607+00:00", "level": "INFO", "message": "User 'alpha' logged in successfully."}
+{"timestamp": "2026-02-21T05:57:26.538607+00:00", "level": "ERROR", "message": "Failed to connect to database 'primary_db'. Connection refused."}
+{"timestamp": "2026-02-21T05:57:27.538607+00:00", "level": "DEBUG", "message": "Sent 50 notification emails."}
+{"timestamp": "2026-02-21T05:57:28.538607+00:00", "level": "ERROR", "message": "Failed to connect to database 'primary_db'. Connection refused."}
+{"timestamp": "2026-02-21T05:57:29.538607+00:00", "level": "DEBUG", "message": "Sent 50 notification emails."}
+{"timestamp": "2026-02-21T05:57:30.538607+00:00", "level": "INFO", "message": "Service 'notification-service' started."}
+{"timestamp": "2026-02-21T05:57:31.538607+00:00", "level": "INFO", "message": "Retrying connection to database... (1/3)"}
+{"timestamp": "2026-02-21T05:57:32.538607+00:00", "level": "DEBUG", "message": "Sent 50 notification emails."}
+{"timestamp": "2026-02-21T05:57:33.538607+00:00", "level": "INFO", "message": "Service 'notification-service' started."}
+{"timestamp": "2026-02-21T05:57:34.538607+00:00", "level": "ERROR", "message": "Failed to connect to database 'primary_db'. Connection refused."}
+{"timestamp": "2026-02-21T05:57:35.538607+00:00", "level": "WARN", "message": "Disk space on '/var/log' is running low (92% used)."}
+{"timestamp": "2026-02-21T05:57:36.538607+00:00", "level": "CRITICAL", "message": "Database connection failed permanently. Service 'data-processor' shutting down."}
+{"timestamp": "2026-02-21T05:57:37.538607+00:00", "level": "INFO", "message": "Service 'auth-service' started."}
+{"timestamp": "2026-02-21T05:57:38.538607+00:00", "level": "WARN", "message": "API endpoint /api/v1/users deprecated. Please use /api/v2/users."}
+{"timestamp": "2026-02-21T05:57:39.538607+00:00", "level": "INFO", "message": "User 'beta' logged in successfully."}
+{"timestamp": "2026-02-21T05:57:40.538607+00:00", "level": "INFO", "message": "Service 'auth-service' started."}
+{"timestamp": "2026-02-21T05:57:41.538607+00:00", "level": "CRITICAL", "message": "Database connection failed permanently. Service 'data-processor' shutting down."}
+{"timestamp": "2026-02-21T05:57:42.538607+00:00", "level": "WARN", "message": "API endpoint /api/v1/users deprecated. Please use /api/v2/users."}
+{"timestamp": "2026-02-21T05:57:43.538607+00:00", "level": "ERROR", "message": "Failed to connect to database 'primary_db'. Connection refused."}
+{"timestamp": "2026-02-21T05:57:44.538607+00:00", "level": "ERROR", "message": "Failed to connect to database 'primary_db'. Connection refused."}
+{"timestamp": "2026-02-21T05:57:45.538607+00:00", "level": "WARN", "message": "API endpoint /api/v1/users deprecated. Please use /api/v2/users."}
+{"timestamp": "2026-02-21T05:57:46.538607+00:00", "level": "INFO", "message": "Processing batch job #2067."}
+{"timestamp": "2026-02-21T05:57:47.538607+00:00", "level": "DEBUG", "message": "Data validation passed for job #2068."}
+{"timestamp": "2026-02-21T05:57:48.538607+00:00", "level": "INFO", "message": "Service 'notification-service' started."}
+{"timestamp": "2026-02-21T05:57:49.538607+00:00", "level": "ERROR", "message": "Failed to connect to database 'primary_db'. Connection refused."}
+{"timestamp": "2026-02-21T05:57:50.538607+00:00", "level": "ERROR", "message": "Failed to connect to database 'primary_db'. Connection refused."}
+{"timestamp": "2026-02-21T05:57:51.538607+00:00", "level": "INFO", "message": "User 'alpha' logged in successfully."}
+{"timestamp": "2026-02-21T05:57:52.538607+00:00", "level": "ERROR", "message": "Failed to connect to database 'primary_db'. Connection refused."}
+{"timestamp": "2026-02-21T05:57:53.538607+00:00", "level": "DEBUG", "message": "Sent 50 notification emails."}
+{"timestamp": "2026-02-21T05:57:54.538607+00:00", "level": "INFO", "message": "Service 'notification-service' started."}
+{"timestamp": "2026-02-21T05:57:55.538607+00:00", "level": "INFO", "message": "Retrying connection to database... (1/3)"}
+{"timestamp": "2026-02-21T05:57:56.538607+00:00", "level": "DEBUG", "message": "Data validation passed for job #2077."}
+{"timestamp": "2026-02-21T05:57:57.538607+00:00", "level": "CRITICAL", "message": "Database connection failed permanently. Service 'data-processor' shutting down."}
+{"timestamp": "2026-02-21T05:57:58.538607+00:00", "level": "WARN", "message": "API endpoint /api/v1/users deprecated. Please use /api/v2/users."}
+{"timestamp": "2026-02-21T05:57:59.538607+00:00", "level": "INFO", "message": "Service 'auth-service' started."}
+{"timestamp": "2026-02-21T05:58:00.538607+00:00", "level": "INFO", "message": "Service 'notification-service' started."}
+{"timestamp": "2026-02-21T05:58:01.538607+00:00", "level": "INFO", "message": "Processing batch job #2082."}
+{"timestamp": "2026-02-21T05:58:02.538607+00:00", "level": "INFO", "message": "Starting hourly maintenance task."}
+{"timestamp": "2026-02-21T05:58:03.538607+00:00", "level": "INFO", "message": "Retrying connection to database... (1/3)"}
+{"timestamp": "2026-02-21T05:58:04.538607+00:00", "level": "INFO", "message": "Service 'notification-service' started."}
+{"timestamp": "2026-02-21T05:58:05.538607+00:00", "level": "INFO", "message": "Retrying connection to database... (2/3)"}
+{"timestamp": "2026-02-21T05:58:06.538607+00:00", "level": "DEBUG", "message": "Data validation passed for job #2087."}
+{"timestamp": "2026-02-21T05:58:07.538607+00:00", "level": "INFO", "message": "Processing batch job #2088."}
+{"timestamp": "2026-02-21T05:58:08.538607+00:00", "level": "DEBUG", "message": "Sent 50 notification emails."}
+{"timestamp": "2026-02-21T05:58:09.538607+00:00", "level": "CRITICAL", "message": "Database connection failed permanently. Service 'data-processor' shutting down."}
+{"timestamp": "2026-02-21T05:58:10.538607+00:00", "level": "DEBUG", "message": "Sent 50 notification emails."}
+{"timestamp": "2026-02-21T05:58:11.538607+00:00", "level": "DEBUG", "message": "Data validation passed for job #2092."}
+{"timestamp": "2026-02-21T05:58:12.538607+00:00", "level": "INFO", "message": "Processing batch job #2093."}
+{"timestamp": "2026-02-21T05:58:13.538607+00:00", "level": "ERROR", "message": "Failed to connect to database 'primary_db'. Connection refused."}
+{"timestamp": "2026-02-21T05:58:14.538607+00:00", "level": "INFO", "message": "Starting hourly maintenance task."}
+{"timestamp": "2026-02-21T05:58:15.538607+00:00", "level": "DEBUG", "message": "Data validation passed for job #2096."}
+{"timestamp": "2026-02-21T05:58:16.538607+00:00", "level": "ERROR", "message": "Failed to connect to database 'primary_db'. Connection refused."}
+{"timestamp": "2026-02-21T05:58:17.538607+00:00", "level": "INFO", "message": "User 'alpha' logged in successfully."}
+{"timestamp": "2026-02-21T05:58:18.538607+00:00", "level": "WARN", "message": "Disk space on '/var/log' is running low (92% used)."}
+{"timestamp": "2026-02-21T05:58:19.538607+00:00", "level": "ERROR", "message": "Failed to connect to database 'primary_db'. Connection refused."}
+{"timestamp": "2026-02-21T05:58:20.538607+00:00", "level": "INFO", "message": "Service 'auth-service' started."}
+{"timestamp": "2026-02-21T05:58:21.538607+00:00", "level": "DEBUG", "message": "Sent 50 notification emails."}
+{"timestamp": "2026-02-21T05:58:22.538607+00:00", "level": "INFO", "message": "Service 'auth-service' started."}
+{"timestamp": "2026-02-21T05:58:23.538607+00:00", "level": "INFO", "message": "Starting hourly maintenance task."}
+{"timestamp": "2026-02-21T05:58:24.538607+00:00", "level": "ERROR", "message": "Failed to connect to database 'primary_db'. Connection refused."}
+{"timestamp": "2026-02-21T05:58:25.538607+00:00", "level": "INFO", "message": "Service 'notification-service' started."}
+{"timestamp": "2026-02-21T05:58:26.538607+00:00", "level": "INFO", "message": "Retrying connection to database... (1/3)"}
+{"timestamp": "2026-02-21T05:58:27.538607+00:00", "level": "WARN", "message": "API endpoint /api/v1/users deprecated. Please use /api/v2/users."}
+{"timestamp": "2026-02-21T05:58:28.538607+00:00", "level": "INFO", "message": "Maintenance task completed."}
+{"timestamp": "2026-02-21T05:58:29.538607+00:00", "level": "INFO", "message": "User 'alpha' logged in successfully."}
+{"timestamp": "2026-02-21T05:58:30.538607+00:00", "level": "INFO", "message": "Retrying connection to database... (2/3)"}
+{"timestamp": "2026-02-21T05:58:31.538607+00:00", "level": "INFO", "message": "Service 'notification-service' started."}
+{"timestamp": "2026-02-21T05:58:32.538607+00:00", "level": "WARN", "message": "API endpoint /api/v1/users deprecated. Please use /api/v2/users."}
+{"timestamp": "2026-02-21T05:58:33.538607+00:00", "level": "CRITICAL", "message": "Database connection failed permanently. Service 'data-processor' shutting down."}
+{"timestamp": "2026-02-21T05:58:34.538607+00:00", "level": "INFO", "message": "User 'alpha' logged in successfully."}
+{"timestamp": "2026-02-21T05:58:35.538607+00:00", "level": "CRITICAL", "message": "Database connection failed permanently. Service 'data-processor' shutting down."}
+{"timestamp": "2026-02-21T05:58:36.538607+00:00", "level": "ERROR", "message": "Failed to connect to database 'primary_db'. Connection refused."}
+{"timestamp": "2026-02-21T05:58:37.538607+00:00", "level": "INFO", "message": "Retrying connection to database... (1/3)"}
+{"timestamp": "2026-02-21T05:58:38.538607+00:00", "level": "INFO", "message": "Retrying connection to database... (1/3)"}
+{"timestamp": "2026-02-21T05:58:39.538607+00:00", "level": "INFO", "message": "User 'beta' logged in successfully."}
+{"timestamp": "2026-02-21T05:58:40.538607+00:00", "level": "INFO", "message": "Starting hourly maintenance task."}
+{"timestamp": "2026-02-21T05:58:41.538607+00:00", "level": "WARN", "message": "API endpoint /api/v1/users deprecated. Please use /api/v2/users."}
+{"timestamp": "2026-02-21T05:58:42.538607+00:00", "level": "INFO", "message": "Retrying connection to database... (2/3)"}
+{"timestamp": "2026-02-21T05:58:43.538607+00:00", "level": "INFO", "message": "Processing batch job #2124."}
+{"timestamp": "2026-02-21T05:58:44.538607+00:00", "level": "CRITICAL", "message": "Database connection failed permanently. Service 'data-processor' shutting down."}
+{"timestamp": "2026-02-21T05:58:45.538607+00:00", "level": "INFO", "message": "Maintenance task completed."}
+{"timestamp": "2026-02-21T05:58:46.538607+00:00", "level": "INFO", "message": "Service 'notification-service' started."}
+{"timestamp": "2026-02-21T05:58:47.538607+00:00", "level": "INFO", "message": "User 'beta' logged in successfully."}
+{"timestamp": "2026-02-21T05:58:48.538607+00:00", "level": "CRITICAL", "message": "Database connection failed permanently. Service 'data-processor' shutting down."}
+{"timestamp": "2026-02-21T05:58:49.538607+00:00", "level": "INFO", "message": "Processing batch job #2130."}
+{"timestamp": "2026-02-21T05:58:50.538607+00:00", "level": "INFO", "message": "User 'alpha' logged in successfully."}
+{"timestamp": "2026-02-21T05:58:51.538607+00:00", "level": "INFO", "message": "User 'alpha' logged in successfully."}
+{"timestamp": "2026-02-21T05:58:52.538607+00:00", "level": "DEBUG", "message": "Sent 50 notification emails."}
+{"timestamp": "2026-02-21T05:58:53.538607+00:00", "level": "INFO", "message": "User 'beta' logged in successfully."}
+{"timestamp": "2026-02-21T05:58:54.538607+00:00", "level": "INFO", "message": "Service 'auth-service' started."}
+{"timestamp": "2026-02-21T05:58:55.538607+00:00", "level": "INFO", "message": "Maintenance task completed."}
+{"timestamp": "2026-02-21T05:58:56.538607+00:00", "level": "INFO", "message": "Maintenance task completed."}
+{"timestamp": "2026-02-21T05:58:57.538607+00:00", "level": "INFO", "message": "Retrying connection to database... (1/3)"}
+{"timestamp": "2026-02-21T05:58:58.538607+00:00", "level": "INFO", "message": "Service 'auth-service' started."}
+{"timestamp": "2026-02-21T05:58:59.538607+00:00", "level": "CRITICAL", "message": "Database connection failed permanently. Service 'data-processor' shutting down."}
+{"timestamp": "2026-02-21T05:59:00.538607+00:00", "level": "DEBUG", "message": "Data validation passed for job #2141."}
+{"timestamp": "2026-02-21T05:59:01.538607+00:00", "level": "INFO", "message": "Retrying connection to database... (1/3)"}
+{"timestamp": "2026-02-21T05:59:02.538607+00:00", "level": "INFO", "message": "Processing batch job #2143."}
+{"timestamp": "2026-02-21T05:59:03.538607+00:00", "level": "INFO", "message": "Starting hourly maintenance task."}
+{"timestamp": "2026-02-21T05:59:04.538607+00:00", "level": "ERROR", "message": "Failed to connect to database 'primary_db'. Connection refused."}
+{"timestamp": "2026-02-21T05:59:05.538607+00:00", "level": "INFO", "message": "Retrying connection to database... (2/3)"}
+{"timestamp": "2026-02-21T05:59:06.538607+00:00", "level": "INFO", "message": "Service 'auth-service' started."}
+{"timestamp": "2026-02-21T05:59:07.538607+00:00", "level": "INFO", "message": "Retrying connection to database... (1/3)"}
+{"timestamp": "2026-02-21T05:59:08.538607+00:00", "level": "INFO", "message": "User 'alpha' logged in successfully."}
+{"timestamp": "2026-02-21T05:59:09.538607+00:00", "level": "DEBUG", "message": "Sent 50 notification emails."}
+{"timestamp": "2026-02-21T05:59:10.538607+00:00", "level": "ERROR", "message": "Failed to connect to database 'primary_db'. Connection refused."}
+{"timestamp": "2026-02-21T05:59:11.538607+00:00", "level": "DEBUG", "message": "Data validation passed for job #2152."}
+{"timestamp": "2026-02-21T05:59:12.538607+00:00", "level": "INFO", "message": "Processing batch job #2153."}
+{"timestamp": "2026-02-21T05:59:13.538607+00:00", "level": "INFO", "message": "User 'alpha' logged in successfully."}
+{"timestamp": "2026-02-21T05:59:14.538607+00:00", "level": "ERROR", "message": "Failed to connect to database 'primary_db'. Connection refused."}
+{"timestamp": "2026-02-21T05:59:15.538607+00:00", "level": "CRITICAL", "message": "Database connection failed permanently. Service 'data-processor' shutting down."}
+{"timestamp": "2026-02-21T05:59:16.538607+00:00", "level": "INFO", "message": "Retrying connection to database... (2/3)"}
+{"timestamp": "2026-02-21T05:59:17.538607+00:00", "level": "INFO", "message": "Retrying connection to database... (1/3)"}
+{"timestamp": "2026-02-21T05:59:18.538607+00:00", "level": "INFO", "message": "User 'alpha' logged in successfully."}
+{"timestamp": "2026-02-21T05:59:19.538607+00:00", "level": "INFO", "message": "User 'alpha' logged in successfully."}
+{"timestamp": "2026-02-21T05:59:20.538607+00:00", "level": "INFO", "message": "Retrying connection to database... (1/3)"}
+{"timestamp": "2026-02-21T05:59:21.538607+00:00", "level": "INFO", "message": "User 'beta' logged in successfully."}
+{"timestamp": "2026-02-21T05:59:22.538607+00:00", "level": "INFO", "message": "Retrying connection to database... (2/3)"}
+{"timestamp": "2026-02-21T05:59:23.538607+00:00", "level": "INFO", "message": "Service 'notification-service' started."}
+{"timestamp": "2026-02-21T05:59:24.538607+00:00", "level": "INFO", "message": "Maintenance task completed."}
+{"timestamp": "2026-02-21T05:59:25.538607+00:00", "level": "CRITICAL", "message": "Database connection failed permanently. Service 'data-processor' shutting down."}
+{"timestamp": "2026-02-21T05:59:26.538607+00:00", "level": "DEBUG", "message": "Data validation passed for job #2167."}
+{"timestamp": "2026-02-21T05:59:27.538607+00:00", "level": "INFO", "message": "Retrying connection to database... (2/3)"}
+{"timestamp": "2026-02-21T05:59:28.538607+00:00", "level": "WARN", "message": "API endpoint /api/v1/users deprecated. Please use /api/v2/users."}
+{"timestamp": "2026-02-21T05:59:29.538607+00:00", "level": "INFO", "message": "User 'beta' logged in successfully."}
+{"timestamp": "2026-02-21T05:59:30.538607+00:00", "level": "ERROR", "message": "Failed to connect to database 'primary_db'. Connection refused."}
+{"timestamp": "2026-02-21T05:59:31.538607+00:00", "level": "INFO", "message": "Processing batch job #2172."}
+{"timestamp": "2026-02-21T05:59:32.538607+00:00", "level": "INFO", "message": "Service 'auth-service' started."}
+{"timestamp": "2026-02-21T05:59:33.538607+00:00", "level": "INFO", "message": "Service 'notification-service' started."}
+{"timestamp": "2026-02-21T05:59:34.538607+00:00", "level": "INFO", "message": "Retrying connection to database... (2/3)"}
+{"timestamp": "2026-02-21T05:59:35.538607+00:00", "level": "INFO", "message": "Maintenance task completed."}
+{"timestamp": "2026-02-21T05:59:36.538607+00:00", "level": "INFO", "message": "Retrying connection to database... (2/3)"}
+{"timestamp": "2026-02-21T05:59:37.538607+00:00", "level": "INFO", "message": "User 'beta' logged in successfully."}
+{"timestamp": "2026-02-21T05:59:38.538607+00:00", "level": "DEBUG", "message": "Sent 50 notification emails."}
+{"timestamp": "2026-02-21T05:59:39.538607+00:00", "level": "DEBUG", "message": "Sent 50 notification emails."}
+{"timestamp": "2026-02-21T05:59:40.538607+00:00", "level": "WARN", "message": "Disk space on '/var/log' is running low (92% used)."}
+{"timestamp": "2026-02-21T05:59:41.538607+00:00", "level": "INFO", "message": "Retrying connection to database... (2/3)"}
+{"timestamp": "2026-02-21T05:59:42.538607+00:00", "level": "WARN", "message": "Disk space on '/var/log' is running low (92% used)."}
+{"timestamp": "2026-02-21T05:59:43.538607+00:00", "level": "INFO", "message": "Processing batch job #2184."}
+{"timestamp": "2026-02-21T05:59:44.538607+00:00", "level": "ERROR", "message": "Failed to connect to database 'primary_db'. Connection refused."}
+{"timestamp": "2026-02-21T05:59:45.538607+00:00", "level": "INFO", "message": "Starting hourly maintenance task."}
+{"timestamp": "2026-02-21T05:59:46.538607+00:00", "level": "DEBUG", "message": "Sent 50 notification emails."}
+{"timestamp": "2026-02-21T05:59:47.538607+00:00", "level": "WARN", "message": "API endpoint /api/v1/users deprecated. Please use /api/v2/users."}
+{"timestamp": "2026-02-21T05:59:48.538607+00:00", "level": "ERROR", "message": "Failed to connect to database 'primary_db'. Connection refused."}
+{"timestamp": "2026-02-21T05:59:49.538607+00:00", "level": "INFO", "message": "Retrying connection to database... (1/3)"}
+{"timestamp": "2026-02-21T05:59:50.538607+00:00", "level": "CRITICAL", "message": "Database connection failed permanently. Service 'data-processor' shutting down."}
+{"timestamp": "2026-02-21T05:59:51.538607+00:00", "level": "INFO", "message": "Retrying connection to database... (1/3)"}
+{"timestamp": "2026-02-21T05:59:52.538607+00:00", "level": "INFO", "message": "Retrying connection to database... (2/3)"}
+{"timestamp": "2026-02-21T05:59:53.538607+00:00", "level": "INFO", "message": "Starting hourly maintenance task."}
+{"timestamp": "2026-02-21T05:59:54.538607+00:00", "level": "ERROR", "message": "Failed to connect to database 'primary_db'. Connection refused."}
+{"timestamp": "2026-02-21T05:59:55.538607+00:00", "level": "INFO", "message": "Starting hourly maintenance task."}
+{"timestamp": "2026-02-21T05:59:56.538607+00:00", "level": "ERROR", "message": "Failed to connect to database 'primary_db'. Connection refused."}
+{"timestamp": "2026-02-21T05:59:57.538607+00:00", "level": "DEBUG", "message": "Data validation passed for job #2198."}
+{"timestamp": "2026-02-21T05:59:58.538607+00:00", "level": "INFO", "message": "User 'alpha' logged in successfully."}
+{"timestamp": "2026-02-21T05:59:59.538607+00:00", "level": "INFO", "message": "User 'alpha' logged in successfully."}
+{"timestamp": "2026-02-21T06:00:00.538607+00:00", "level": "WARN", "message": "API endpoint /api/v1/users deprecated. Please use /api/v2/users."}
+{"timestamp": "2026-02-21T06:00:01.538607+00:00", "level": "ERROR", "message": "Failed to connect to database 'primary_db'. Connection refused."}
+{"timestamp": "2026-02-21T06:00:02.538607+00:00", "level": "WARN", "message": "API endpoint /api/v1/users deprecated. Please use /api/v2/users."}
+{"timestamp": "2026-02-21T06:00:03.538607+00:00", "level": "DEBUG", "message": "Sent 50 notification emails."}
+{"timestamp": "2026-02-21T06:00:04.538607+00:00", "level": "CRITICAL", "message": "Database connection failed permanently. Service 'data-processor' shutting down."}
+{"timestamp": "2026-02-21T06:00:05.538607+00:00", "level": "DEBUG", "message": "Sent 50 notification emails."}
+{"timestamp": "2026-02-21T06:00:06.538607+00:00", "level": "CRITICAL", "message": "Database connection failed permanently. Service 'data-processor' shutting down."}
+{"timestamp": "2026-02-21T06:00:07.538607+00:00", "level": "INFO", "message": "Service 'notification-service' started."}
+{"timestamp": "2026-02-21T06:00:08.538607+00:00", "level": "ERROR", "message": "Failed to connect to database 'primary_db'. Connection refused."}
+{"timestamp": "2026-02-21T06:00:09.538607+00:00", "level": "INFO", "message": "Service 'notification-service' started."}
+{"timestamp": "2026-02-21T06:00:10.538607+00:00", "level": "ERROR", "message": "Failed to connect to database 'primary_db'. Connection refused."}
+{"timestamp": "2026-02-21T06:00:11.538607+00:00", "level": "CRITICAL", "message": "Database connection failed permanently. Service 'data-processor' shutting down."}
+{"timestamp": "2026-02-21T06:00:12.538607+00:00", "level": "INFO", "message": "Starting hourly maintenance task."}
+{"timestamp": "2026-02-21T06:00:13.538607+00:00", "level": "INFO", "message": "Service 'notification-service' started."}
+{"timestamp": "2026-02-21T06:00:14.538607+00:00", "level": "INFO", "message": "Service 'auth-service' started."}
+{"timestamp": "2026-02-21T06:00:15.538607+00:00", "level": "INFO", "message": "Processing batch job #2216."}
+{"timestamp": "2026-02-21T06:00:16.538607+00:00", "level": "ERROR", "message": "Failed to connect to database 'primary_db'. Connection refused."}
+{"timestamp": "2026-02-21T06:00:17.538607+00:00", "level": "INFO", "message": "Retrying connection to database... (1/3)"}
+{"timestamp": "2026-02-21T06:00:18.538607+00:00", "level": "INFO", "message": "Processing batch job #2219."}
+{"timestamp": "2026-02-21T06:00:19.538607+00:00", "level": "INFO", "message": "User 'alpha' logged in successfully."}
+{"timestamp": "2026-02-21T06:00:20.538607+00:00", "level": "INFO", "message": "Service 'auth-service' started."}
+{"timestamp": "2026-02-21T06:00:21.538607+00:00", "level": "INFO", "message": "Maintenance task completed."}
+{"timestamp": "2026-02-21T06:00:22.538607+00:00", "level": "INFO", "message": "Service 'auth-service' started."}
+{"timestamp": "2026-02-21T06:00:23.538607+00:00", "level": "ERROR", "message": "Failed to connect to database 'primary_db'. Connection refused."}
+{"timestamp": "2026-02-21T06:00:24.538607+00:00", "level": "INFO", "message": "Retrying connection to database... (1/3)"}
+{"timestamp": "2026-02-21T06:00:25.538607+00:00", "level": "CRITICAL", "message": "Database connection failed permanently. Service 'data-processor' shutting down."}
+{"timestamp": "2026-02-21T06:00:26.538607+00:00", "level": "INFO", "message": "Processing batch job #2227."}
+{"timestamp": "2026-02-21T06:00:27.538607+00:00", "level": "INFO", "message": "User 'beta' logged in successfully."}
+{"timestamp": "2026-02-21T06:00:28.538607+00:00", "level": "INFO", "message": "Service 'notification-service' started."}
+{"timestamp": "2026-02-21T06:00:29.538607+00:00", "level": "DEBUG", "message": "Sent 50 notification emails."}
+{"timestamp": "2026-02-21T06:00:30.538607+00:00", "level": "INFO", "message": "Service 'notification-service' started."}
+{"timestamp": "2026-02-21T06:00:31.538607+00:00", "level": "INFO", "message": "Service 'notification-service' started."}
+{"timestamp": "2026-02-21T06:00:32.538607+00:00", "level": "INFO", "message": "Retrying connection to database... (1/3)"}
