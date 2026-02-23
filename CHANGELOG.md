@@ -2,15 +2,21 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2.0.1] - 2026-02-23
+
+### 🐛 Fixes
+- **Error Handling (API Key/Prompt Files):** Ensured the script exits with a non-zero status code on critical errors (e.g., missing API key or prompt files) to improve behavior in automated pipelines.
+- **Code Cleanup & Documentation:** Applied high-priority feedback from code review including:
+  - Removed unused `import json` from `log_analyzer.py`.
+  - Removed in-chunk `sort_values` from `log_analyzer.py`'s `stream_log_dataframes` function.
+  - Added explicit input prerequisites to `README.md` and `README.jp.md` clarifying timestamp ordering.
+
 ## [2.0.0] - 2026-02-23
 
 ### 💥 Breaking Changes
 - **CLI Arguments Refactored:** The command-line interface has been significantly refactored for clarity and better programmatic use.
   - The `--file` argument has been renamed to `--input`.
   - The output path is no longer configured in `analysis_config.yaml`. It must now be specified via a new, required `--output` command-line argument.
-
-### 🐛 Fixes
-- **Error Handling:** Ensured the script exits with a non-zero status code on critical errors (e.g., missing API key or prompt files) to improve behavior in automated pipelines.
 
 ## [1.0.0] - 2026-02-23
 
