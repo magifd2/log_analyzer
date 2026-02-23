@@ -2,7 +2,7 @@
 
 All notable changes to this project will be documented in this file.
 
-## [Unreleased] - 2026-02-23
+## [1.0.0] - 2026-02-23
 
 ### 🛡️ Security
 - **Prompt Injection:** LLMに渡すプロンプトの形式を、指示とデータを完全に分離する方式に変更し、プロンプトインジェクションに対する堅牢性を大幅に向上させました。
