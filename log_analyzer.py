@@ -8,7 +8,7 @@ import pathlib
 import sys
 import yaml
 import pandas as pd
-import json
+
 from dotenv import load_dotenv
 from openai import OpenAI
 from tqdm import tqdm
@@ -38,7 +38,7 @@ def stream_log_dataframes(file_path: str, timestamp_field: str, timestamp_format
         else:
             df_chunk[timestamp_field] = pd.to_datetime(df_chunk[timestamp_field], format=timestamp_format)
 
-        df_chunk = df_chunk.sort_values(by=timestamp_field).reset_index(drop=True)
+
         yield df_chunk
 
 def create_log_chunks(df: pd.DataFrame, max_tokens_per_chunk: int) -> list[str]:

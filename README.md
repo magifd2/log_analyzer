@@ -73,6 +73,10 @@ To run the tool, you must provide the input log file, the desired output path, a
 ### 4. Check the Output
 The analysis report will be saved to the path you specified with the `--output` argument.
 
+## Input File Prerequisites
+- Log entries must be ordered by timestamp in ascending order.
+- If the order is not guaranteed, analysis accuracy near chunk boundaries may decrease.
+
 ## Project Structure
 ```
 log_analyzer/
