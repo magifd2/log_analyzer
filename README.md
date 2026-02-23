@@ -47,7 +47,7 @@ cp .env.template .env
 ```
 
 ### 3. Running the Analysis
-To run the tool, you must provide the log file and the two configuration files as command-line arguments.
+To run the tool, you must provide the input log file, the desired output path, and the two configuration files as command-line arguments.
 
 *   **Example Command:**
     ```bash
@@ -56,20 +56,22 @@ To run the tool, you must provide the log file and the two configuration files a
     
     # Run the analysis
     python log_analyzer.py \
-      --file data/large_sample.jsonl \
+      --input data/large_sample.jsonl \
+      --output output/report.md \
       --system-config system_config.yaml \
       --analysis-config analysis_config.yaml
     ```
 *   **Directly (without activating):**
     ```bash
     ./.venv/bin/python3 log_analyzer.py \
-      --file data/large_sample.jsonl \
+      --input data/large_sample.jsonl \
+      --output output/report.md \
       --system-config system_config.yaml \
       --analysis-config analysis_config.yaml
     ```
 
 ### 4. Check the Output
-The analysis report will be saved in the `output/` directory, as specified in your `analysis_config.yaml`.
+The analysis report will be saved to the path you specified with the `--output` argument.
 
 ## Project Structure
 ```

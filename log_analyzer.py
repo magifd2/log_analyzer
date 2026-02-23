@@ -183,10 +183,16 @@ def main():
             formatter_class=argparse.RawTextHelpFormatter
         )
         parser.add_argument(
-            "--file",
+            "--input",
             type=str,
             required=True,
             help="Path to the log file to be analyzed."
+        )
+        parser.add_argument(
+            "--output",
+            type=str,
+            required=True,
+            help="Full path to the output analysis report file."
         )
         parser.add_argument(
             "--system-config",
@@ -215,11 +221,11 @@ def main():
         dataframe_chunk_size = data_config.get("dataframe_chunk_size", 10000)
 
         # Count lines for progress bar
-        total_lines = count_lines(args.file)
+        total_lines = count_lines(args.input)
         total_batches = math.ceil(total_lines / dataframe_chunk_size)
 
         dataframe_stream = stream_log_dataframes(
-            args.file,
+            args.input,
             data_config.get("timestamp_field"),
             data_config.get("timestamp_format"),
             chunksize=dataframe_chunk_size
@@ -273,23 +279,13 @@ def main():
             print("Skipping final report generation as there were no chunk summaries.")
 
         # --- 5. Output final report ---
-        output_config = analysis_config.get("output", {})
-        output_dir = output_config.get("output_dir", "output")
-        report_filename = output_config.get("report_filename", "analysis_report.md")
+        output_path = pathlib.Path(args.output)
+        output_path.parent.mkdir(parents=True, exist_ok=True)
         
-        os.makedirs(output_dir, exist_ok=True)
-        
-        # Prevent path traversal attacks
-        safe_output_dir = pathlib.Path(output_dir).resolve()
-        report_path = (safe_output_dir / report_filename).resolve()
-
-        if not str(report_path).startswith(str(safe_output_dir)):
-            raise ValueError(f"Error: Invalid report filename '{report_filename}' leads to path traversal.")
-
-        with open(report_path, "w", encoding="utf-8") as f:
+        with open(output_path, "w", encoding="utf-8") as f:
             f.write(final_report)
 
-        print(f"\nAnalysis complete. Report saved to '{report_path}'")
+        print(f"\nAnalysis complete. Report saved to '{output_path}'")
 
     except (FileNotFoundError, yaml.YAMLError, ValueError) as e:
         print(f"Error: {e}")

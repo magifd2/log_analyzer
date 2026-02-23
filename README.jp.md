@@ -47,7 +47,7 @@ cp .env.template .env
 ```
 
 ### 3. 分析の実行
-ツールを実行するには、分析対象のログファイルと2つの設定ファイルをコマンドライン引数として渡す必要があります。
+ツールを実行するには、分析対象のログファイル、出力先のパス、そして2つの設定ファイルをコマンドライン引数として渡す必要があります。
 
 *   **実行コマンドの例:**
     ```bash
@@ -55,21 +55,23 @@ cp .env.template .env
     source .venv/bin/activate
     
     # 分析を実行
-    python log_analyzer.py 
-      --file data/large_sample.jsonl 
-      --system-config system_config.yaml 
+    python log_analyzer.py \
+      --input data/large_sample.jsonl \
+      --output output/report.md \
+      --system-config system_config.yaml \
       --analysis-config analysis_config.yaml
     ```
 *   **仮想環境を有効化しない場合:**
     ```bash
-    ./.venv/bin/python3 log_analyzer.py 
-      --file data/large_sample.jsonl 
-      --system-config system_config.yaml 
+    ./.venv/bin/python3 log_analyzer.py \
+      --input data/large_sample.jsonl \
+      --output output/report.md \
+      --system-config system_config.yaml \
       --analysis-config analysis_config.yaml
     ```
 
 ### 4. 結果の確認
-分析レポートは、`analysis_config.yaml` で指定された `output/` ディレクトリ内に保存されます。
+分析レポートは、`--output`引数で指定したパスに保存されます。
 
 ## プロジェクト構成
 ```

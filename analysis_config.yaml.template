@@ -21,9 +21,3 @@ prompts:
   # Path to the prompt file for summarizing the results of all chunks.
   final_summary_prompt_path: "prompts/summarize_all.txt"
 
-# Output settings
-output:
-  # Path to the output directory where the report will be saved.
-  output_dir: "output"
-  # Filename for the final analysis report.
-  report_filename: "analysis_report.md"

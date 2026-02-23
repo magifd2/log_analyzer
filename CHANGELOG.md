@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2.0.0] - 2026-02-23
+
+### 💥 Breaking Changes
+- **CLI Arguments Refactored:** The command-line interface has been significantly refactored for clarity and better programmatic use.
+  - The `--file` argument has been renamed to `--input`.
+  - The output path is no longer configured in `analysis_config.yaml`. It must now be specified via a new, required `--output` command-line argument.
+
 ## [1.0.0] - 2026-02-23
 
 ### 🛡️ Security
