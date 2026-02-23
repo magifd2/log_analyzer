@@ -233,9 +233,7 @@ def main():
         
         api_key = os.getenv("OPENAI_API_KEY")
         if not api_key:
-            print("Error: OPENAI_API_KEY not found in environment variables.")
-            print("Please create a .env file and add your API key to it.")
-            return
+            raise ValueError("OPENAI_API_KEY not found in environment variables. Please create a .env file and add your API key to it.")
 
         client = OpenAI(api_key=api_key, base_url=llm_config.get("base_url"))
         model = llm_config.get("model")
@@ -245,8 +243,7 @@ def main():
             with open(prompts_config.get("chunk_analysis_prompt_path"), "r", encoding="utf-8") as f:
                 chunk_instruction_template = f.read()
         except FileNotFoundError:
-            print(f"Error: Chunk analysis prompt file '{prompts_config.get('chunk_analysis_prompt_path')}' not found.")
-            return
+            raise FileNotFoundError(f"Chunk analysis prompt file '{prompts_config.get('chunk_analysis_prompt_path')}' not found.")
 
         chunk_summaries = []
         print("Analyzing log file in chunks...")
@@ -267,9 +264,7 @@ def main():
                 with open(prompts_config.get("final_summary_prompt_path"), "r", encoding="utf-8") as f:
                     final_instruction_template = f.read()
             except FileNotFoundError:
-                print(f"Error: Final summary prompt file '{prompts_config.get('final_summary_prompt_path')}' not found.")
-                return
-                
+                            raise FileNotFoundError(f"Final summary prompt file '{prompts_config.get('final_summary_prompt_path')}' not found.")                
             print("Generating final report...")
             max_summary_tokens = llm_config.get("max_summary_tokens", 16000)
             final_report = summarize_results(client, chunk_summaries, final_instruction_template, model, max_summary_tokens)
