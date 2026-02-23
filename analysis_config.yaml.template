@@ -10,6 +10,9 @@ data:
   # Otherwise, use Python's strptime format codes.
   # Examples: "%Y-%m-%dT%H:%M:%S.%fZ", "epoch", "iso8601"
   timestamp_format: "iso8601"
+  # How many lines to read into memory at once. This helps manage memory
+  # usage for very large files.
+  dataframe_chunk_size: 10000
 
 # Prompt template paths
 prompts:

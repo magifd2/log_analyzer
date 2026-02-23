@@ -9,4 +9,7 @@ llm:
   model: "openai/gpt-oss-20b"
   # Approximate maximum tokens for a single chunk before splitting.
   # This is not a hard limit, but a guideline for the chunking logic.
-  max_tokens_per_chunk: 2048
+  max_tokens_per_chunk: 32768
+  # Context window limit for the final summarization step. If the combined
+  # summaries exceed this, the final summarization is skipped.
+  max_summary_tokens: 16000

@@ -22,7 +22,8 @@ The final goal of the overall analysis is as follows:
 Based on this final goal, create a prompt for the chunk analysis.
 
 Constraints for the chunk analysis prompt:
-- It MUST include the placeholder `{{log_chunk}}` where the actual log data will be inserted.
+- It must NOT include any placeholders like `{{log_chunk}}`. The log data will be provided separately to the language model.
+- The prompt should be a pure instruction, telling the LLM what to do with the log data it will receive.
 - The prompt should instruct the LLM to focus on extracting factual and objective information from the chunk. This could include lists of errors, summaries of specific events, key statistics, or notable warnings.
 - The output from this chunk-level analysis will be used as input for a final summarization step, so it should be concise and structured.
 
@@ -43,8 +44,8 @@ The final goal of the overall analysis is as follows:
 Based on this final goal, create a prompt for the final summarization.
 
 Constraints for the final summarization prompt:
-- It MUST include the placeholder `{{chunk_summaries}}` where the concatenated summaries from all chunks will be inserted.
-- The prompt should instruct the LLM to synthesize the information from all chunk summaries into a single, high-level report.
+- It must NOT include any placeholders like `{{chunk_summaries}}`. The chunk summaries will be provided separately to the language model.
+- The prompt should be a pure instruction, telling the LLM how to synthesize the information from all chunk summaries into a single, high-level report.
 - The final report should identify trends, infer root causes, and suggest concrete recommendations or action items, as requested by the user's objective.
 
 Please provide ONLY the text for the final summarization prompt, and nothing else.
@@ -116,14 +117,6 @@ def save_prompt_to_file(prompt_text: str, output_path: str):
         print(f"Error writing to file '{output_path}': {e}", file=sys.stderr)
         sys.exit(1)
 
-def check_placeholder(prompt_text: str, placeholder: str, prompt_type: str):
-    """Checks if the generated prompt contains the required placeholder."""
-    if placeholder not in prompt_text:
-        print(f"Error: Generated {prompt_type} prompt is missing the required placeholder '{placeholder}'.", file=sys.stderr)
-        sys.exit(1)
-    print(f"Placeholder '{placeholder}' successfully found in {prompt_type} prompt.")
-
-
 def main():
     """Main function to generate analysis prompts."""
     load_dotenv()
@@ -152,14 +145,12 @@ def main():
     # Generate and save chunk prompt
     meta_prompt_for_chunk = CHUNK_PROMPT_META_TEMPLATE.format(user_objective=objective)
     chunk_prompt = generate_prompt_from_meta(client, meta_prompt_for_chunk, model)
-    check_placeholder(chunk_prompt, "{log_chunk}", "chunk analysis")
     save_prompt_to_file(chunk_prompt, args.chunk_output)
     print("-" * 30)
 
     # Generate and save final prompt
     meta_prompt_for_final = FINAL_PROMPT_META_TEMPLATE.format(user_objective=objective)
     final_prompt = generate_prompt_from_meta(client, meta_prompt_for_final, model)
-    check_placeholder(final_prompt, "{chunk_summaries}", "final summary")
     save_prompt_to_file(final_prompt, args.final_output)
 
 if __name__ == "__main__":

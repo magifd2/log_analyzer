@@ -23,6 +23,7 @@ uv pip install -r requirements.txt
 
 ### 2. Configuration
 You need to create three configuration files based on the templates provided.
+The templates include comments explaining each parameter. For memory management of very large files, you can adjust `dataframe_chunk_size` in `analysis_config.yaml` and `max_summary_tokens` in `system_config.yaml`.
 
 **A. System Configuration**
 This file tells the tool which LLM to connect to. Copy the template and edit it for your environment. This file should generally not be committed to version control.
