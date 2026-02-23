@@ -58,6 +58,7 @@ def get_objective(args) -> str:
     Gets the analysis objective from standard input or command-line argument.
     Priority is given to standard input.
     """
+    MAX_OBJECTIVE_LENGTH = 2000
     objective = ""
     if not os.isatty(sys.stdin.fileno()):
         print("Reading objective from standard input...")
@@ -67,9 +68,11 @@ def get_objective(args) -> str:
         objective = args.objective.strip()
 
     if not objective:
-        print("Error: Analysis objective is required.", file=sys.stderr)
-        print("Please provide it via standard input or the --objective argument.", file=sys.stderr)
-        sys.exit(1)
+        raise ValueError("Analysis objective is required. Please provide it via standard input or the --objective argument.")
+
+    if len(objective) > MAX_OBJECTIVE_LENGTH:
+        raise ValueError(f"Objective is too long ({len(objective)} chars). Max: {MAX_OBJECTIVE_LENGTH}")
+        
     return objective
 
 def load_config(config_path: str) -> dict:
@@ -78,11 +81,9 @@ def load_config(config_path: str) -> dict:
         with open(config_path, "r", encoding="utf-8") as f:
             return yaml.safe_load(f)
     except FileNotFoundError:
-        print(f"Error: Configuration file not found at '{config_path}'", file=sys.stderr)
-        sys.exit(1)
+        raise
     except yaml.YAMLError as e:
-        print(f"Error parsing YAML file '{config_path}': {e}", file=sys.stderr)
-        sys.exit(1)
+        raise yaml.YAMLError(f"Error parsing YAML file '{config_path}': {e}")
 
 def generate_prompt_from_meta(client: OpenAI, meta_prompt: str, model: str) -> str:
     """Sends the meta-prompt to the LLM and returns the generated prompt."""
@@ -103,8 +104,7 @@ def generate_prompt_from_meta(client: OpenAI, meta_prompt: str, model: str) -> s
             generated_text = generated_text.split("FINAL SUMMARIZATION PROMPT:", 1)[1].strip()
         return generated_text
     except Exception as e:
-        print(f"Error calling LLM API: {e}", file=sys.stderr)
-        sys.exit(1)
+        raise Exception(f"Error calling LLM API: {type(e).__name__}")
 
 def save_prompt_to_file(prompt_text: str, output_path: str):
     """Saves the generated prompt text to a file."""
@@ -114,44 +114,48 @@ def save_prompt_to_file(prompt_text: str, output_path: str):
             f.write(prompt_text)
         print(f"Successfully saved prompt to '{output_path}'")
     except IOError as e:
-        print(f"Error writing to file '{output_path}': {e}", file=sys.stderr)
-        sys.exit(1)
+        raise IOError(f"Error writing to file '{output_path}': {e}")
 
 def main():
     """Main function to generate analysis prompts."""
-    load_dotenv()
-    parser = argparse.ArgumentParser(
-        description="Generate analysis prompts for the log-analyzer tool using an LLM.",
-        formatter_class=argparse.RawTextHelpFormatter
-    )
-    parser.add_argument("--objective", type=str, help="A clear, natural language description of the analysis goal.\nCan also be provided via standard input.")
-    parser.add_argument("--chunk-output", type=str, required=True, help="Path to save the generated chunk analysis prompt.")
-    parser.add_argument("--final-output", type=str, required=True, help="Path to save the generated final summary prompt.")
-    parser.add_argument("--system-config", type=str, required=True, help="Path to the system configuration file (e.g., system_config.yaml).")
-    args = parser.parse_args()
+    try:
+        load_dotenv()
+        parser = argparse.ArgumentParser(
+            description="Generate analysis prompts for the log-analyzer tool using an LLM.",
+            formatter_class=argparse.RawTextHelpFormatter
+        )
+        parser.add_argument("--objective", type=str, help="A clear, natural language description of the analysis goal.\nCan also be provided via standard input.")
+        parser.add_argument("--chunk-output", type=str, required=True, help="Path to save the generated chunk analysis prompt.")
+        parser.add_argument("--final-output", type=str, required=True, help="Path to save the generated final summary prompt.")
+        parser.add_argument("--system-config", type=str, required=True, help="Path to the system configuration file (e.g., system_config.yaml).")
+        args = parser.parse_args()
 
-    objective = get_objective(args)
-    
-    system_config = load_config(args.system_config)
-    llm_config = system_config.get("llm", {})
-    api_key = os.getenv("OPENAI_API_KEY")
-    if not api_key:
-        print("Error: OPENAI_API_KEY not found in environment variables.", file=sys.stderr)
+        objective = get_objective(args)
+        
+        system_config = load_config(args.system_config)
+        llm_config = system_config.get("llm", {})
+        api_key = os.getenv("OPENAI_API_KEY")
+        if not api_key:
+            raise ValueError("OPENAI_API_KEY not found in environment variables.")
+
+        client = OpenAI(api_key=api_key, base_url=llm_config.get("base_url"))
+        model = llm_config.get("model")
+
+        # Generate and save chunk prompt
+        meta_prompt_for_chunk = CHUNK_PROMPT_META_TEMPLATE.format(user_objective=objective)
+        chunk_prompt = generate_prompt_from_meta(client, meta_prompt_for_chunk, model)
+        save_prompt_to_file(chunk_prompt, args.chunk_output)
+        print("-" * 30)
+
+        # Generate and save final prompt
+        meta_prompt_for_final = FINAL_PROMPT_META_TEMPLATE.format(user_objective=objective)
+        final_prompt = generate_prompt_from_meta(client, meta_prompt_for_final, model)
+        save_prompt_to_file(final_prompt, args.final_output)
+
+    except (ValueError, FileNotFoundError, yaml.YAMLError, IOError) as e:
+        print(f"Error: {e}", file=sys.stderr)
         sys.exit(1)
 
-    client = OpenAI(api_key=api_key, base_url=llm_config.get("base_url"))
-    model = llm_config.get("model")
-
-    # Generate and save chunk prompt
-    meta_prompt_for_chunk = CHUNK_PROMPT_META_TEMPLATE.format(user_objective=objective)
-    chunk_prompt = generate_prompt_from_meta(client, meta_prompt_for_chunk, model)
-    save_prompt_to_file(chunk_prompt, args.chunk_output)
-    print("-" * 30)
-
-    # Generate and save final prompt
-    meta_prompt_for_final = FINAL_PROMPT_META_TEMPLATE.format(user_objective=objective)
-    final_prompt = generate_prompt_from_meta(client, meta_prompt_for_final, model)
-    save_prompt_to_file(final_prompt, args.final_output)
 
 if __name__ == "__main__":
     main()

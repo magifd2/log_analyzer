@@ -23,3 +23,4 @@ All notable changes to this project will be documented in this file.
 ### 🐛 Fixes
 - **Error Handling:** 関数内での `exit(1)` の直接呼び出しを廃止し、`main`関数で例外をまとめて捕捉する一貫したエラーハンドリング方式に統一しました。
 - **Validation:** 設定ファイル読み込み時に必須項目が欠けていないか検証する処理を追加し、設定ミスによるエラーの発見を容易にしました。
+- **`prompt_generator.py`:** 予期せぬエラー発生時に詳細なトレースバックが表示されるように例外処理を改善し、デバッグを容易にしました。
