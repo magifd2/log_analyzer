@@ -8,12 +8,12 @@ import pathlib
 import sys
 import yaml
 import pandas as pd
-
 from dotenv import load_dotenv
 from openai import OpenAI
 from tqdm import tqdm
+from typing import Iterator
 
-def stream_log_dataframes(file_path: str, timestamp_field: str, timestamp_format: str, chunksize: int) -> iter[pd.DataFrame]:
+def stream_log_dataframes(file_path: str, timestamp_field: str, timestamp_format: str, chunksize: int) -> Iterator[pd.DataFrame]:
     """
     Yields sorted DataFrame chunks from a JSONL file to handle large files.
     """
