@@ -2,6 +2,11 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2.0.2] - 2026-02-23
+
+### 🐛 Fixes
+- **CLI Initialization:** Resolved `TypeError` and restored correct `argparse` behavior when `log_analyzer.py` is run without arguments, ensuring proper display of usage information and non-zero exit codes on missing arguments.
+
 ## [2.0.1] - 2026-02-23
 
 ### 🐛 Fixes
