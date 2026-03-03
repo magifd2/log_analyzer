@@ -2,6 +2,11 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2.1.3] - 2026-03-04
+
+### 🛡️ Security
+- **First-Order Prompt Injection Hardening:** Hardened the initial chunk analysis step (`analyze_chunk`) against prompt injection from raw log data. Log data is now wrapped in `<log_data>` tags and the system prompt instructs the LLM to treat it as untrusted data.
+
 ## [2.1.2] - 2026-03-04
 
 ### 🛡️ Security
