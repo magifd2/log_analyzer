@@ -5,6 +5,14 @@ All notable changes to this project will be documented in this file.
 ## [2.2.0] - 2026-03-04
 
 ### ✨ Features & Enhancements
+- **Configurable Token Estimation:** The character-to-token estimation ratio is now configurable via the `chars_per_token_estimate` parameter in `system_config.yaml`. This allows users to tune the token estimation logic for different languages to avoid token limit errors.
+
+### 🛡️ Security
+- **Randomized Tag Injection Hardening:** Enhanced prompt injection protection by using randomized tags (e.g., `<log_data_f9b3a1>`) for data wrapping in both chunk analysis and final summarization. This prevents attackers from guessing and escaping the data fences.
+
+## [2.1.3] - 2026-03-04
+
+### ✨ Features & Enhancements
 - **Configurable Token Estimation:** The character-to-token estimation ratio is now configurable via the `chars_per_token_estimate` parameter in `system_config.yaml`. This allows users to tune the token estimation logic for different languages (e.g., English vs. Japanese) to avoid `400 Token Limit Exceeded` errors with non-English log data.
 
 ## [2.1.3] - 2026-03-04
