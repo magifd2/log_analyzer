@@ -2,6 +2,11 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2.1.2] - 2026-03-04
+
+### 🛡️ Security
+- **Second-Order Prompt Injection Hardening:** Hardened the final summarization step against second-order prompt injection. Chunk summaries are now wrapped in `<report>` tags and the final summarization prompt explicitly instructs the LLM to treat them as untrusted data, preventing instructions in chunk summaries from being executed.
+
 ## [2.1.1] - 2026-03-04
 
 ### 🐛 Fixes
