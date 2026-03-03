@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2.1.1] - 2026-03-04
+
+### 🐛 Fixes
+- **Unified Error Handling:** Refactored the `summarize_results` function to include the same retry logic as `analyze_chunk`. The main exception handler now correctly catches `APIError` from both functions, ensuring consistent, robust error handling across the entire analysis pipeline.
+- **Dependency Pinning:** Pinned the version for the `backoff` library in `requirements.txt` to ensure reproducible builds.
+
 ## [2.1.0] - 2026-03-04
 
 ### ✨ Features & Enhancements
