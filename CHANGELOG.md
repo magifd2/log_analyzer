@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2.1.0] - 2026-03-04
+
+### ✨ Features & Enhancements
+- **API Call Retries:** Implemented an exponential backoff retry mechanism for API calls using the `backoff` library. This makes the analysis more resilient to transient network issues or temporary API unavailability.
+
+### 🐛 Fixes
+- **Halt on Chunk Error:** The analysis process will now halt immediately if a chunk analysis fails after all retries. This prevents the generation of an incomplete or misleading final report.
+
+### Dependencies
+- Added `backoff` library to `requirements.txt`.
+
 ## [2.0.2] - 2026-02-23
 
 ### 🐛 Fixes
