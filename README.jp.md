@@ -23,7 +23,10 @@ uv pip install -r requirements.txt
 
 ### 2. 設定ファイルの準備
 次に、テンプレートを元に3つの設定ファイルを作成する必要があります。
-テンプレートには各パラメータを説明するコメントが含まれています。巨大なファイルのメモリ使用量を調整したい場合は、`analysis_config.yaml`の`dataframe_chunk_size`や`system_config.yaml`の`max_summary_tokens`を変更できます。
+テンプレートには各パラメータを説明するコメントが含まれています。巨大なファイルのメモリ使用量や、異なる言語のログを扱うために、以下の設定を調整できます。
+- `analysis_config.yaml` の `dataframe_chunk_size`
+- `system_config.yaml` の `max_summary_tokens`
+- `system_config.yaml` の `chars_per_token_estimate`（特に日本語など英語以外のログで重要です）
 
 **A. システム設定**
 このファイルは、接続先のLLMを指定します。テンプレートをコピーし、ご自身の環境に合わせて編集してください。このファイルは通常、バージョン管理（Gitなど）に含めるべきではありません。

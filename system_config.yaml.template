@@ -13,3 +13,6 @@ llm:
   # Context window limit for the final summarization step. If the combined
   # summaries exceed this, the final summarization is skipped.
   max_summary_tokens: 16000
+  # Character-per-token estimation factor. Tune this based on your log language.
+  # Recommended values: 3.5 for English, 1.0-1.5 for Japanese.
+  chars_per_token_estimate: 3.5

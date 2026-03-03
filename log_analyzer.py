@@ -42,14 +42,16 @@ def stream_log_dataframes(file_path: str, timestamp_field: str, timestamp_format
 
         yield df_chunk
 
-def create_log_chunks(df: pd.DataFrame, max_tokens_per_chunk: int) -> list[str]:
+def create_log_chunks(df: pd.DataFrame, llm_config: dict) -> list[str]:
     """
     Creates chunks of log data from a DataFrame, based on an approximate token limit.
     """
     chunks = []
     current_chunk_rows = []
     current_char_count = 0
-    char_limit = max_tokens_per_chunk * 3.5
+    max_tokens_per_chunk = llm_config.get("max_tokens_per_chunk", 2048)
+    chars_per_token_estimate = llm_config.get("chars_per_token_estimate", 3.5)
+    char_limit = max_tokens_per_chunk * chars_per_token_estimate
 
     for _, row in df.iterrows():
         row_json_str = row.to_json(date_format='iso')
@@ -95,7 +97,7 @@ Instructions:
     return response.choices[0].message.content
 
 @backoff.on_exception(backoff.expo, APIError, max_tries=3)
-def summarize_results(client: OpenAI, summaries: list[str], instruction_template: str, model: str, max_tokens: int) -> str:
+def summarize_results(client: OpenAI, summaries: list[str], instruction_template: str, model: str, llm_config: dict) -> str:
     """
     Summarizes the collected chunk summaries into a final report with strong separation
     and protection against second-order prompt injection.
@@ -104,8 +106,10 @@ def summarize_results(client: OpenAI, summaries: list[str], instruction_template
     # Wrap each summary in <report> tags to clearly demarcate them as data.
     formatted_summaries = "\n".join(f"<report>\n{s}\n</report>" for s in summaries)
 
-    # Estimate token count (very rough approximation, chars / 3.5)
-    estimated_tokens = len(formatted_summaries) / 3.5
+    max_tokens = llm_config.get("max_summary_tokens", 16000)
+    chars_per_token_estimate = llm_config.get("chars_per_token_estimate", 3.5)
+    # Estimate token count (very rough approximation)
+    estimated_tokens = len(formatted_summaries) / chars_per_token_estimate
     if estimated_tokens > max_tokens:
         warning_msg = (
             f"Warning: The combined summary text is too large (~{int(estimated_tokens)} tokens) "
@@ -255,7 +259,7 @@ def main():
         print("Analyzing log file in chunks...")
         outer_progress = tqdm(dataframe_stream, total=total_batches, desc="Total Progress (Batches)")
         for df_chunk in outer_progress:
-            log_chunks = create_log_chunks(df_chunk, llm_config.get("max_tokens_per_chunk", 2048))
+            log_chunks = create_log_chunks(df_chunk, llm_config)
             
             # Inner loop for analyzing text chunks from the current DataFrame batch
             inner_progress = tqdm(log_chunks, desc="Analyzing Chunks in Batch", leave=False)
@@ -272,8 +276,7 @@ def main():
             except FileNotFoundError:
                             raise FileNotFoundError(f"Final summary prompt file '{prompts_config.get('final_summary_prompt_path')}' not found.")                
             print("Generating final report...")
-            max_summary_tokens = llm_config.get("max_summary_tokens", 16000)
-            final_report = summarize_results(client, chunk_summaries, final_instruction_template, model, max_summary_tokens)
+            final_report = summarize_results(client, chunk_summaries, final_instruction_template, model, llm_config)
             print("Final report generated.")
         else:
             final_report = "No summaries were generated from the log chunks."
