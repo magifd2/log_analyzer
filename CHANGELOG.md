@@ -2,6 +2,11 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2.3.0] - 2026-03-04
+
+### ✨ Features & Enhancements
+- **Configurable LLM Parameters:** Users can now specify custom LLM generation parameters (e.g., `temperature`, `top_p`) in a new `generation_params` section within `system_config.yaml`. These parameters are passed directly to the API, allowing for finer control over the model's output.
+
 ## [2.2.0] - 2026-03-04
 
 ### ✨ Features & Enhancements

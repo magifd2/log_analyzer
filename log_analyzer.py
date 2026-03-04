@@ -71,7 +71,7 @@ def create_log_chunks(df: pd.DataFrame, llm_config: dict) -> list[str]:
     return chunks
 
 @backoff.on_exception(backoff.expo, APIError, max_tries=3)
-def analyze_chunk(client: OpenAI, chunk_text: str, instruction_template: str, model: str, log_tag: str) -> str:
+def analyze_chunk(client: OpenAI, chunk_text: str, instruction_template: str, model: str, log_tag: str, llm_config: dict) -> str:
     """
     Analyzes a single log chunk using the LLM with strong separation between instructions and data.
     Retries on API errors with exponential backoff.
@@ -88,12 +88,15 @@ Instructions:
     # Wrap the raw log data in tags to prevent prompt injection.
     user_content = f"<{log_tag}>\n{chunk_text}\n</{log_tag}>"
 
+    generation_params = llm_config.get("generation_params", {})
+
     response = client.chat.completions.create(
         model=model,
         messages=[
             {"role": "system", "content": system_prompt},
             {"role": "user", "content": user_content}
-        ]
+        ],
+        **generation_params
     )
     return response.choices[0].message.content
 
@@ -137,7 +140,8 @@ Instructions:
         messages=[
             {"role": "system", "content": system_prompt},
             {"role": "user", "content": formatted_summaries}
-        ]
+        ],
+        **llm_config.get("generation_params", {})
     )
     return response.choices[0].message.content
 
@@ -270,7 +274,7 @@ def main():
             # Inner loop for analyzing text chunks from the current DataFrame batch
             inner_progress = tqdm(log_chunks, desc="Analyzing Chunks in Batch", leave=False)
             for text_chunk in inner_progress:
-                summary = analyze_chunk(client, text_chunk, chunk_instruction_template, model, log_tag)
+                summary = analyze_chunk(client, text_chunk, chunk_instruction_template, model, log_tag, llm_config)
                 chunk_summaries.append(summary)
         print("All chunks analyzed.")
 

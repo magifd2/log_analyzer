@@ -16,3 +16,13 @@ llm:
   # Character-per-token estimation factor. Tune this based on your log language.
   # Recommended values: 3.5 for English, 1.0-1.5 for Japanese.
   chars_per_token_estimate: 3.5
+
+  # Optional parameters to pass to the LLM generation API.
+  # These will be passed directly to the client.chat.completions.create() call.
+  # Example:
+  # generation_params:
+  #   temperature: 0.7
+  #   top_p: 1.0
+  #   frequency_penalty: 0.0
+  #   presence_penalty: 0.0
+  generation_params: {}
