@@ -27,7 +27,7 @@ uv pip install -r requirements.txt
 - `analysis_config.yaml` の `dataframe_chunk_size`
 - `system_config.yaml` の `max_summary_tokens`
 - `system_config.yaml` の `chars_per_token_estimate`（特に日本語など英語以外のログで重要です）
-- `system_config.yaml` の `generation_params`（`temperature`のようなカスタムパラメータをLLMに渡すため）
+- `system_config.yaml` の `generation_params`（`temperature`のようなカスタムパラメータをLLMに渡すため。パラメータ名はお使いのAPIエンドポイントと互換性がある必要があります。）
 
 **A. システム設定**
 このファイルは、接続先のLLMを指定します。テンプレートをコピーし、ご自身の環境に合わせて編集してください。このファイルは通常、バージョン管理（Gitなど）に含めるべきではありません。

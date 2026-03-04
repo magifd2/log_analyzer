@@ -2,6 +2,11 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2.3.1] - 2026-03-04
+
+### 📝 Documentation
+- Clarified the usage of the `generation_params` in `system_config.yaml.template` and READMEs. Added a strong warning that parameter names must exactly match those supported by the target API endpoint to prevent errors. Provided a comprehensive list of common, standard parameters as examples.
+
 ## [2.3.0] - 2026-03-04
 
 ### ✨ Features & Enhancements

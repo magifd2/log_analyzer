@@ -27,7 +27,7 @@ The templates include comments explaining each parameter. For memory management 
 - `dataframe_chunk_size` in `analysis_config.yaml`
 - `max_summary_tokens` in `system_config.yaml`
 - `chars_per_token_estimate` in `system_config.yaml` (important for non-English logs)
-- `generation_params` in `system_config.yaml` (to pass custom parameters like `temperature` to the LLM)
+- `generation_params` in `system_config.yaml` (to pass custom parameters like `temperature` to the LLM. The parameter names must be compatible with your API endpoint.)
 
 **A. System Configuration**
 This file tells the tool which LLM to connect to. Copy the template and edit it for your environment. This file should generally not be committed to version control.

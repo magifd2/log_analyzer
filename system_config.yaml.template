@@ -18,11 +18,17 @@ llm:
   chars_per_token_estimate: 3.5
 
   # Optional parameters to pass to the LLM generation API.
-  # These will be passed directly to the client.chat.completions.create() call.
-  # Example:
+  # CRITICAL: These parameters are passed directly to the API. The parameter names
+  # and their value types must EXACTLY match what your target API endpoint supports.
+  # Unsupported parameters will cause the tool to fail. Check your model/API documentation.
+  #
+  # Example of common OpenAI-compatible parameters:
   # generation_params:
   #   temperature: 0.7
   #   top_p: 1.0
-  #   frequency_penalty: 0.0
   #   presence_penalty: 0.0
+  #   frequency_penalty: 0.0
+  #   seed: 42
+  #   stop: ["\n", "---"]
+  #   logit_bias: {"2198": -100} # Prevent the word "and" from appearing.
   generation_params: {}
