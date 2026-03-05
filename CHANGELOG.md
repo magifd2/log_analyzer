@@ -2,6 +2,11 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2.4.0] - 2026-03-04
+
+### ✨ Features & Enhancements
+- **Improved Prompt Generation:** Significantly enhanced the meta-prompts in `prompt_generator.py`. The generator now produces much more versatile and higher-quality analysis instructions, focusing on extracting meaningful patterns (like user intents and workflows) rather than just factual errors. This improves the overall quality and relevance of the final analysis report.
+
 ## [2.3.1] - 2026-03-04
 
 ### 📝 Documentation
