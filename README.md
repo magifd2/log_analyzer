@@ -1,5 +1,8 @@
 # Log Analyzer
 
+> **Archived (2026-07-31)** — no longer used or maintained. Kept public
+> for reference.
+
 This is a CLI tool to analyze large log files (JSONL or JSON Array) using an LLM.
 It chunks the data based on timestamps to handle files larger than the LLM's context window.
 
